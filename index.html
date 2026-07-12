@@ -98,7 +98,14 @@
       <a href="/" class="header__logo" aria-label="TryTreat - Home">
         <svg class="header__logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <rect width="32" height="32" rx="8" fill="#2563eb"/>
-          <path d="M8 22V10h4v3h4V10h4v12h-4v-5h-4v5H8z" fill="white"/>
+          <path d="M16 6C12 6 9 9 9 13v2h14v-2c0-4-3-7-7-7z" fill="none" stroke="white" stroke-width="1.5"/>
+          <path d="M9 15L23 15 22 24C22 25.1 21.1 26 20 26L12 26C10.9 26 10 25.1 10 24L9 15z" fill="white"/>
+          <path d="M12 15L12 22C12 22.6 12.4 23 13 23 13.6 23 14 22.6 14 22L14 15" fill="#2563eb"/>
+          <path d="M18 15L18 22C18 22.6 18.4 23 19 23 19.6 23 20 22.6 20 22L20 15" fill="#2563eb"/>
+          <path d="M16 15L16 24" stroke="#2563eb" stroke-width="1"/>
+          <rect x="14" y="8" width="4" height="4" rx="1" fill="white"/>
+          <rect x="11" y="10" width="2" height="2" rx="1" fill="white"/>
+          <rect x="19" y="10" width="2" height="2" rx="1" fill="white"/>
         </svg>
         <span class="header__logo-text">TryTreat</span>
       </a>
@@ -193,28 +200,80 @@
       <div class="container">
         <div class="hero__badge">Discover &amp; Save</div>
         <h1 id="hero-title" class="hero__title">
-          Try New Products<br>
-          <span class="hero__title-accent">For Free</span>
+          Discover the Best Free Samples, Product Tests<br>
+          <span class="hero__title-accent">&amp; Exclusive Rewards in Germany</span>
         </h1>
         <p class="hero__subtitle">
-          Find free samples, exclusive giveaways, coupons, and rewards from top brands. Start saving today.
+          Find verified offers, product testing opportunities, shopping rewards and free samples — all in one place.
         </p>
         <div class="hero__actions">
-          <a href="/free-samples" class="btn btn--primary btn--lg">Browse Free Samples</a>
-          <a href="/guides" class="btn btn--ghost btn--lg">Read Our Guides</a>
+          <a href="/offers/" class="btn btn--primary btn--lg">Explore Free Offers</a>
+          <a href="/guides/" class="btn btn--ghost btn--lg">Browse Guides</a>
         </div>
         <div class="hero__stats">
           <div class="hero__stat">
-            <span class="hero__stat-value">5,000+</span>
-            <span class="hero__stat-label">Free Samples</span>
+            <span class="hero__stat-value">100+</span>
+            <span class="hero__stat-label">Verified Offers</span>
           </div>
           <div class="hero__stat">
-            <span class="hero__stat-value">250+</span>
-            <span class="hero__stat-label">Brands</span>
+            <span class="hero__stat-value">50+</span>
+            <span class="hero__stat-label">Expert Guides</span>
           </div>
           <div class="hero__stat">
-            <span class="hero__stat-value">&euro;100k+</span>
-            <span class="hero__stat-label">Saved by Users</span>
+            <span class="hero__stat-value">6</span>
+            <span class="hero__stat-label">Countries</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="section trust" aria-labelledby="trust-title">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="trust-title" class="section__title">Why Trust TryTreat?</h2>
+          <p class="section__subtitle">We make finding free stuff safe, simple and reliable</p>
+        </div>
+        <div class="trust__grid">
+          <div class="trust__card">
+            <div class="trust__card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="trust__card-title">Verified Offers</h3>
+            <p class="trust__card-desc">Every offer is hand-checked. We verify availability, eligibility and expiry dates so you never waste time.</p>
+          </div>
+          <div class="trust__card">
+            <div class="trust__card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                <polyline points="17 6 23 6 23 12"/>
+              </svg>
+            </div>
+            <h3 class="trust__card-title">Regularly Updated</h3>
+            <p class="trust__card-desc">Our database updates daily. New offers, coupons and giveaways are added as soon as they appear.</p>
+          </div>
+          <div class="trust__card">
+            <div class="trust__card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20V10"/>
+                <path d="M18 20V4"/>
+                <path d="M6 20v-4"/>
+              </svg>
+            </div>
+            <h3 class="trust__card-title">Free to Use</h3>
+            <p class="trust__card-desc">TryTreat costs nothing. No hidden fees, no premium tiers — every offer and guide is completely free.</p>
+          </div>
+          <div class="trust__card">
+            <div class="trust__card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+            </div>
+            <h3 class="trust__card-title">No Registration Required</h3>
+            <p class="trust__card-desc">Browse everything instantly. You never need to create an account or share personal data to use TryTreat.</p>
           </div>
         </div>
       </div>
@@ -299,93 +358,94 @@
         <div class="section__header">
           <h2 id="featured-title" class="section__title">Featured Offers</h2>
           <p class="section__subtitle">Handpicked deals you don't want to miss</p>
-          <a href="/free-samples" class="section__link">View all &rarr;</a>
+          <a href="/offers/" class="section__link">View all &rarr;</a>
         </div>
         <div class="offers__grid">
-          <article class="offer-card">
+          <a href="/offers/example-offer/" class="offer-card">
             <div class="offer-card__badge">Free Sample</div>
             <div class="offer-card__image" aria-hidden="true">
               <div class="offer-card__image-placeholder">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                  <circle cx="8.5" cy="8.5" r="1.5"/>
-                  <polyline points="21 15 16 10 5 21"/>
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                  <line x1="9" y1="9" x2="9.01" y2="9"/>
+                  <line x1="15" y1="9" x2="15.01" y2="9"/>
                 </svg>
               </div>
             </div>
             <div class="offer-card__body">
-              <span class="offer-card__brand">Brand Name</span>
-              <h3 class="offer-card__title">Free Sample Product</h3>
-              <p class="offer-card__desc">Get a free sample delivered to your door. Limited quantity available.</p>
+              <span class="offer-card__brand">Gratisproben</span>
+              <h3 class="offer-card__title">Free Beauty Sample Box</h3>
+              <p class="offer-card__desc">Get a curated box of premium beauty samples delivered to your door. No purchase required.</p>
               <div class="offer-card__meta">
-                <span class="offer-card__tag">Free</span>
-                <span class="offer-card__date">Coming Soon</span>
+                <span class="offer-card__tag">&euro;25+ Value</span>
+                <span class="offer-card__date">Active</span>
               </div>
             </div>
-          </article>
-          <article class="offer-card">
+          </a>
+          <a href="/offers/example-coupon-1/" class="offer-card">
             <div class="offer-card__badge offer-card__badge--coupon">Coupon</div>
             <div class="offer-card__image" aria-hidden="true">
               <div class="offer-card__image-placeholder">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                  <circle cx="8.5" cy="8.5" r="1.5"/>
-                  <polyline points="21 15 16 10 5 21"/>
+                  <rect x="2" y="4" width="20" height="16" rx="2"/>
+                  <path d="M10 14h4"/>
+                  <path d="M8 10h.01"/>
+                  <path d="M16 10h.01"/>
+                  <path d="M10 18h4"/>
                 </svg>
               </div>
             </div>
             <div class="offer-card__body">
-              <span class="offer-card__brand">Brand Name</span>
-              <h3 class="offer-card__title">Exclusive Coupon Code</h3>
-              <p class="offer-card__desc">Save 20% on your first order. Limited time offer for new customers.</p>
+              <span class="offer-card__brand">EDEKA</span>
+              <h3 class="offer-card__title">Exclusive 20% Off First Order</h3>
+              <p class="offer-card__desc">Save 20% on your first order. Valid for new customers — use the exclusive coupon code at checkout.</p>
               <div class="offer-card__meta">
                 <span class="offer-card__tag offer-card__tag--coupon">20% Off</span>
-                <span class="offer-card__date">Coming Soon</span>
+                <span class="offer-card__date">Limited Time</span>
               </div>
             </div>
-          </article>
-          <article class="offer-card">
-            <div class="offer-card__badge offer-card__badge--giveaway">Giveaway</div>
-            <div class="offer-card__image" aria-hidden="true">
-              <div class="offer-card__image-placeholder">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                  <circle cx="8.5" cy="8.5" r="1.5"/>
-                  <polyline points="21 15 16 10 5 21"/>
-                </svg>
-              </div>
-            </div>
-            <div class="offer-card__body">
-              <span class="offer-card__brand">Brand Name</span>
-              <h3 class="offer-card__title">Win a Free Product Bundle</h3>
-              <p class="offer-card__desc">Enter for a chance to win a complete product bundle worth &euro;100+.</p>
-              <div class="offer-card__meta">
-                <span class="offer-card__tag offer-card__tag--giveaway">Free Entry</span>
-                <span class="offer-card__date">Coming Soon</span>
-              </div>
-            </div>
-          </article>
-          <article class="offer-card">
+          </a>
+          <a href="/offers/example-offer/" class="offer-card">
             <div class="offer-card__badge">Free Sample</div>
             <div class="offer-card__image" aria-hidden="true">
               <div class="offer-card__image-placeholder">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                  <circle cx="8.5" cy="8.5" r="1.5"/>
-                  <polyline points="21 15 16 10 5 21"/>
+                  <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+                  <line x1="3" y1="6" x2="21" y2="6"/>
+                  <path d="M16 10a4 4 0 01-8 0"/>
                 </svg>
               </div>
             </div>
             <div class="offer-card__body">
-              <span class="offer-card__brand">Brand Name</span>
-              <h3 class="offer-card__title">Free Beauty Sample Box</h3>
-              <p class="offer-card__desc">Try a curated box of beauty samples. No purchase required.</p>
+              <span class="offer-card__brand">Kaufland</span>
+              <h3 class="offer-card__title">Weekly Deals &amp; Coupons</h3>
+              <p class="offer-card__desc">Discover weekly deals, multi-buy discounts and printable coupons for your next Kaufland shopping trip.</p>
               <div class="offer-card__meta">
-                <span class="offer-card__tag">Free</span>
-                <span class="offer-card__date">Coming Soon</span>
+                <span class="offer-card__tag offer-card__tag--coupon">Deals</span>
+                <span class="offer-card__date">Weekly</span>
               </div>
             </div>
-          </article>
+          </a>
+          <a href="/offers/example-coupon-1/" class="offer-card">
+            <div class="offer-card__badge offer-card__badge--coupon">Coupon</div>
+            <div class="offer-card__image" aria-hidden="true">
+              <div class="offer-card__image-placeholder">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="offer-card__body">
+              <span class="offer-card__brand">Gratisproben</span>
+              <h3 class="offer-card__title">Free Product Testing</h3>
+              <p class="offer-card__desc">Sign up to test new products at home and keep them for free. Categories include beauty, food, and household.</p>
+              <div class="offer-card__meta">
+                <span class="offer-card__tag">Free</span>
+                <span class="offer-card__date">Ongoing</span>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -585,7 +645,14 @@
           <a href="/" class="footer__logo" aria-label="TryTreat - Home">
             <svg class="footer__logo-icon" width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
               <rect width="32" height="32" rx="8" fill="#2563eb"/>
-              <path d="M8 22V10h4v3h4V10h4v12h-4v-5h-4v5H8z" fill="white"/>
+              <path d="M16 6C12 6 9 9 9 13v2h14v-2c0-4-3-7-7-7z" fill="none" stroke="white" stroke-width="1.5"/>
+              <path d="M9 15L23 15 22 24C22 25.1 21.1 26 20 26L12 26C10.9 26 10 25.1 10 24L9 15z" fill="white"/>
+              <path d="M12 15L12 22C12 22.6 12.4 23 13 23 13.6 23 14 22.6 14 22L14 15" fill="#2563eb"/>
+              <path d="M18 15L18 22C18 22.6 18.4 23 19 23 19.6 23 20 22.6 20 22L20 15" fill="#2563eb"/>
+              <path d="M16 15L16 24" stroke="#2563eb" stroke-width="1"/>
+              <rect x="14" y="8" width="4" height="4" rx="1" fill="white"/>
+              <rect x="11" y="10" width="2" height="2" rx="1" fill="white"/>
+              <rect x="19" y="10" width="2" height="2" rx="1" fill="white"/>
             </svg>
             <span class="footer__logo-text">TryTreat</span>
           </a>
@@ -603,27 +670,26 @@
           </ul>
         </div>
         <div class="footer__links">
-          <h3 class="footer__heading">Resources</h3>
+          <h3 class="footer__heading">Company</h3>
           <ul class="footer__list">
-            <li><a href="/guides">Guides</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/contact">Contact</a></li>
             <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
           </ul>
         </div>
         <div class="footer__links">
           <h3 class="footer__heading">Legal</h3>
           <ul class="footer__list">
             <li><a href="/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/cookie-policy">Cookie Policy</a></li>
+            <li><a href="/terms">Terms &amp; Conditions</a></li>
+            <li><a href="/affiliate-disclosure">Affiliate Disclosure</a></li>
             <li><a href="/disclaimer">Disclaimer</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <p class="footer__copy">&copy; 2026 TryTreat. All rights reserved.</p>
-        <p class="footer__disclaimer">TryTreat is not affiliated with any brands shown on this site.</p>
+        <p class="footer__disclaimer">TryTreat is not affiliated with any brands shown on this site. Some links are affiliate links.</p>
       </div>
     </div>
   </footer>

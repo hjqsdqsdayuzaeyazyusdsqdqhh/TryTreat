@@ -1287,6 +1287,132 @@ body {
 }
 
 /* =============================================
+   MICROINTERACTIONS
+   ============================================= */
+.offer-card {
+  transition: all var(--transition-base);
+}
+
+.offer-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.offer-card:hover .offer-card__image-placeholder svg {
+  transform: scale(1.08);
+}
+
+.offer-card__image-placeholder svg {
+  transition: transform var(--transition-slow);
+}
+
+.offer-card__tag {
+  transition: all var(--transition-fast);
+}
+
+.offer-card:hover .offer-card__tag {
+  transform: scale(1.05);
+}
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.15);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.btn:hover::after {
+  opacity: 1;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  transition: all var(--transition-base);
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-hover);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.btn-ghost:hover {
+  background: var(--color-surface);
+}
+
+.category-card {
+  transition: all var(--transition-base);
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.category-card__icon svg {
+  transition: transform var(--transition-slow);
+}
+
+.category-card:hover .category-card__icon svg {
+  transform: scale(1.12) rotate(-4deg);
+}
+
+.guide-card {
+  transition: all var(--transition-base);
+}
+
+.guide-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.header__nav-link {
+  position: relative;
+}
+
+.header__nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transition: width var(--transition-base);
+}
+
+.header__nav-link:hover::after {
+  width: 100%;
+}
+
+a, button {
+  transition: color var(--transition-fast), background-color var(--transition-fast), border-color var(--transition-fast), opacity var(--transition-fast);
+}
+
+.footer__list a {
+  transition: color var(--transition-fast);
+}
+
+.footer__list a:hover {
+  color: var(--color-primary);
+}
+
+/* =============================================
    PREFERS REDUCED MOTION
    ============================================= */
 @media (prefers-reduced-motion: reduce) {
