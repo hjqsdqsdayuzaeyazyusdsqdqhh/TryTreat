@@ -625,11 +625,11 @@ ${partialFooter()}
 function generateOfferPages() {
   offers.forEach(offer => {
     const cat = categories.find(c => c.id === offer.category);
-    const relOffers = findRelatedOffers(offer, offers, 4).map(partialOfferCard).join('\n');
+    const relOffers = findRelatedOffers(offer, offers, 4);
     const relGuides = findRelatedGuides(
       { id: offer.id, categorySlug: offer.category, tags: offer.tags || [] },
       guides, 3
-    ).map(partialGuideCard).join('\n');
+    );
     const relCats = categories.slice(0, 4);
     const breadcrumb = partialBreadcrumb([
       { label: 'Home', url: '/' },
@@ -638,19 +638,33 @@ function generateOfferPages() {
     ]);
     const faq = partialFAQ(offer.faq, offer.slug);
 
-    const stepsHtml = (offer.howItWorks || []).map(s =>
-      `<div class="offer-detail__step">${esc(s)}</div>`
-    ).join('\n');
-
-    const sidebar = partialSidebar({
-      offer,
-      relatedOffers: findRelatedOffers(offer, offers, 3),
-      relatedGuides: findRelatedGuides({ id: offer.id, categorySlug: offer.category, tags: offer.tags || [] }, guides, 3),
-      relatedCategories: relCats
-    });
-
     const badgeClass = offer.type === 'coupon' ? ' offer-card__tag--coupon' :
                        offer.type === 'giveaway' ? ' offer-card__tag--giveaway' : '';
+
+    const countryFlag = offer.country && offer.country.length ? offer.country[0] : '';
+    const countryName = countryFlag === 'DE' ? 'Germany' :
+                        countryFlag === 'FR' ? 'France' :
+                        countryFlag === 'NL' ? 'Netherlands' :
+                        countryFlag === 'BE' ? 'Belgium' :
+                        countryFlag === 'ES' ? 'Spain' :
+                        countryFlag === 'IT' ? 'Italy' : 'Worldwide';
+
+    const ctaLabel = offer.type === 'free-sample' ? 'Claim Free Samples' :
+                     offer.id === 'edeka' ? 'View Current Offer' :
+                     offer.id === 'kaufand' ? 'Explore Rewards' :
+                     'View Offer';
+
+    const categoryText = offer.type === 'free-sample' ? 'Free Sample' :
+                         offer.type === 'coupon' ? 'Coupon' :
+                         offer.type === 'giveaway' ? 'Giveaway' : offer.type;
+
+    const formattedDate = new Date(offer.updatedAt || offer.createdAt).toLocaleDateString('en-US', {
+      year: 'numeric', month: 'short', day: 'numeric'
+    });
+
+    const overviewLines = (offer.overview || offer.description).split('\n');
+    const benefitsLines = (offer.benefits || '').split('\n');
+    const notesLines = (offer.importantNotes || '').split('\n');
 
     const jsonLdBreadcrumb = {
       '@context': 'https://schema.org',
@@ -710,70 +724,181 @@ ${partialSearchModal()}
   <main id="main-content">
 ${breadcrumb}
 
+    <!-- Hero -->
     <section class="page-content">
       <div class="container">
-        <div class="offer-detail__content">
-          <div class="offer-detail__main">
-            <div class="offer-detail__hero">
-              <div class="offer-detail__hero-placeholder">
-                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        <div class="offer-detail">
+          <div class="offer-detail__banner">
+            <div class="offer-detail__banner-bg"></div>
+            <div class="offer-detail__banner-content">
+              <div class="offer-detail__banner-grid">
+                <div class="offer-detail__banner-left">
+                  <div class="offer-detail__banner-badges">
+                    <span class="offer-card__tag${badgeClass}">${esc(categoryText)}</span>
+                    <span class="offer-card__country-badge">${esc(countryName)}</span>
+                  </div>
+                  <h1 class="offer-detail__banner-title">${esc(offer.title)}</h1>
+                  <p class="offer-detail__banner-desc">${esc(offer.description)}</p>
+                </div>
+                <div class="offer-detail__banner-right">
+                  <div class="offer-detail__banner-icon" aria-hidden="true">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="20" y="35" width="60" height="45" rx="6" fill="white" fill-opacity="0.9"/>
+                      <rect x="28" y="44" width="16" height="16" rx="3" fill="#2563eb" fill-opacity="0.15"/>
+                      <rect x="48" y="44" width="24" height="4" rx="2" fill="#2563eb" fill-opacity="0.1"/>
+                      <rect x="48" y="52" width="18" height="4" rx="2" fill="#2563eb" fill-opacity="0.1"/>
+                      <rect x="48" y="60" width="22" height="4" rx="2" fill="#2563eb" fill-opacity="0.1"/>
+                      <rect x="28" y="68" width="36" height="4" rx="2" fill="#2563eb" fill-opacity="0.1"/>
+                      <path d="M50 18L58 32H42L50 18Z" fill="white" fill-opacity="0.8"/>
+                      <path d="M35 32L42 18H50" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+                      <circle cx="85" cy="30" r="12" fill="#22c55e" fill-opacity="0.2"/>
+                      <path d="M81 30L84 33L89 26" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <div class="offer-detail__hero-badge">
-                <span class="offer-card__tag${badgeClass}">${esc(offer.type === 'free-sample' ? 'Free Sample' : offer.type === 'coupon' ? 'Coupon' : offer.type)}</span>
-              </div>
-            </div>
-
-            <a href="${cat ? cat.url : '#'}" class="offer-detail__brand-link">${esc(cat ? cat.name : offer.categoryName)}</a>
-            <h1 class="offer-detail__title">${esc(offer.title)}</h1>
-            <p class="offer-detail__desc">${esc(offer.description)}</p>
-
-            ${offer.affiliateUrl && offer.affiliateUrl !== '#' ? `
-            <div class="offer-detail__affirm">
-              <a href="${esc(offer.affiliateUrl)}" class="btn btn--primary btn--lg offer-detail__affirm-btn" rel="nofollow sponsored" target="_blank">${esc(offer.type === 'free-sample' ? 'Claim Free Samples' : offer.type === 'coupon' ? 'View Offer' : 'Get This Offer')}</a>
-              <p class="offer-detail__affirm-disclosure">This page may contain affiliate links. We may earn a commission if you complete a qualifying action, at no additional cost to you.</p>
-            </div>` : ''}
-
-            ${stepsHtml ? `
-            <div class="offer-detail__section">
-              <h2 class="offer-detail__section-title">How It Works</h2>
-              <div class="offer-detail__steps">
-${stepsHtml}
-              </div>
-            </div>` : ''}
-
-            ${offer.eligibility ? `
-            <div class="offer-detail__section">
-              <h2 class="offer-detail__section-title">Eligibility</h2>
-              <div class="offer-detail__eligibility">${esc(offer.eligibility)}</div>
-            </div>` : ''}
-
-            ${faq ? `
-            <div class="offer-detail__section">
-              <h2 class="offer-detail__section-title">Frequently Asked Questions</h2>
-${faq}
-            </div>` : ''}
-
-            <div class="offer-detail__trust">
-              <div class="offer-detail__trust-icon" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </div>
-              <div class="offer-detail__trust-text">
-                <strong>Trusted &amp; Verified:</strong> All offers are hand-checked for accuracy. We update listings daily to ensure availability.
-              </div>
-            </div>
-
-            <div class="offer-detail__disclosure">
-              <p><strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. If you choose to claim an offer through these links, we may earn a small commission at no extra cost to you. This helps us keep TryTreat free. <a href="/affiliate-disclosure">Learn more</a>.</p>
             </div>
           </div>
 
-${sidebar}
+          <div class="offer-detail__content">
+            <div class="offer-detail__main">
+
+              <!-- Details Card -->
+              <div class="offer-detail__section">
+                <div class="offer-detail__details-card">
+                  <div class="offer-detail__details-row"><span class="o-d-icon">📍</span> <span class="o-d-label">Country</span> <span class="o-d-value">${esc(countryName)}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">📂</span> <span class="o-d-label">Category</span> <span class="o-d-value">${esc(offer.categoryName)}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">🏷️</span> <span class="o-d-label">Offer Type</span> <span class="o-d-value">${esc(categoryText)}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">💰</span> <span class="o-d-label">Cost</span> <span class="o-d-value">${esc(offer.cost || 'Free')}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">⏱️</span> <span class="o-d-label">Est. Time</span> <span class="o-d-value">${esc(offer.estimatedTime || 'Few minutes')}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">📦</span> <span class="o-d-label">Availability</span> <span class="o-d-value">${esc(offer.availability || 'While supplies last')}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">🔄</span> <span class="o-d-label">Updated</span> <span class="o-d-value">${formattedDate}</span></div>
+                  <div class="offer-detail__details-row"><span class="o-d-icon">📱</span> <span class="o-d-label">Mobile Friendly</span> <span class="o-d-value">Yes</span></div>
+                </div>
+              </div>
+
+              <!-- Overview -->
+              <div class="offer-detail__section">
+                <h2 class="offer-detail__section-title">Overview</h2>
+                <div class="offer-detail__summary-card">
+                  <div class="offer-detail__summary-block">
+                    <h3 class="offer-detail__summary-label">What is this offer?</h3>
+                    <p class="offer-detail__summary-text">${esc(offer.overview || offer.description)}</p>
+                  </div>
+                  <div class="offer-detail__summary-grid">
+                    <div class="offer-detail__summary-col">
+                      <h3 class="offer-detail__summary-label">Who can participate</h3>
+                      <p class="offer-detail__summary-text">${esc(offer.whoCanParticipate || offer.eligibility)}</p>
+                    </div>
+                    <div class="offer-detail__summary-col">
+                      <h3 class="offer-detail__summary-label">Benefits</h3>
+                      <ul class="offer-detail__summary-list">
+${benefitsLines.map(b => b.trim()).filter(b => b).map(b => `<li class="o-d-check">${esc(b)}</li>`).join('\n')}
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="offer-detail__summary-block">
+                    <h3 class="offer-detail__summary-label">Important Notes</h3>
+                    <ul class="offer-detail__summary-list">
+${notesLines.map(n => n.trim()).filter(n => n).map(n => `<li class="o-d-bullet">${esc(n)}</li>`).join('\n')}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA -->
+              <div class="offer-detail__sticky-cta-trigger">
+              <div class="offer-detail__affirm">
+                <a href="${esc(offer.affiliateUrl)}" class="btn btn--primary btn--lg offer-detail__affirm-btn" rel="nofollow sponsored" target="_blank">${esc(ctaLabel)}</a>
+                <p class="offer-detail__affirm-disclosure">This page may contain affiliate links. We may receive a commission if you complete a qualifying action. There is no additional cost to you.</p>
+              </div>
+              </div>
+
+              <!-- Trust Box -->
+              <div class="offer-detail__trust-box">
+                <div class="offer-detail__trust-item"><span class="o-d-tick">&#10003;</span> Free to Access</div>
+                <div class="offer-detail__trust-item"><span class="o-d-tick">&#10003;</span> Secure Redirect</div>
+                <div class="offer-detail__trust-item"><span class="o-d-tick">&#10003;</span> Regularly Updated</div>
+                <div class="offer-detail__trust-item"><span class="o-d-tick">&#10003;</span> ${countryName} Offer</div>
+              </div>
+
+              <!-- How It Works -->
+              <div class="offer-detail__section">
+                <h2 class="offer-detail__section-title">How It Works</h2>
+                <div class="offer-detail__steps">
+                  <div class="offer-detail__step">Open the offer and review the details</div>
+                  <div class="offer-detail__step">Review eligibility requirements</div>
+                  <div class="offer-detail__step">Complete the required registration or request form</div>
+                  <div class="offer-detail__step">Continue through the official offer flow</div>
+                </div>
+              </div>
+
+              <!-- FAQ -->
+              ${faq ? `
+              <div class="offer-detail__section">
+                <h2 class="offer-detail__section-title">Frequently Asked Questions</h2>
+                <div class="offer-detail__faq-wrap">
+${faq}
+                </div>
+              </div>` : ''}
+            </div>
+
+            <!-- Sidebar -->
+            <div class="offer-detail__sidebar">
+              <!-- Quick Links -->
+              <div class="sidebar-card">
+                <h3 class="sidebar-card__title">Quick Links</h3>
+                <ul class="sidebar-card__list">
+                  <li class="sidebar-card__item"><span class="sidebar-card__dot"></span><a href="#overview">Overview</a></li>
+                  <li class="sidebar-card__item"><span class="sidebar-card__dot"></span><a href="#details">Details</a></li>
+                  <li class="sidebar-card__item"><span class="sidebar-card__dot"></span><a href="#how-it-works">How It Works</a></li>
+                  <li class="sidebar-card__item"><span class="sidebar-card__dot"></span><a href="#faq">FAQ</a></li>
+                </ul>
+              </div>
+
+              <!-- Related Offers -->
+              ${relOffers.length ? `
+              <div class="sidebar-card">
+                <h3 class="sidebar-card__title">Related Offers</h3>
+                <div class="sidebar-card__grid">
+${relOffers.slice(0, 3).map(o => `
+                  <a href="${o.url}" class="sidebar-card__mini-card">
+                    <div class="sidebar-card__mini-badge">${o.categoryName}</div>
+                    <div class="sidebar-card__mini-title">${esc(o.title)}</div>
+                    <div class="sidebar-card__mini-meta">
+                      <span class="sidebar-card__mini-tag">${esc(o.value || 'Free')}</span>
+                    </div>
+                  </a>`).join('\n')}
+                </div>
+              </div>` : ''}
+
+              <!-- Related Guides -->
+              ${relGuides.length ? `
+              <div class="sidebar-card">
+                <h3 class="sidebar-card__title">Related Guides</h3>
+                <div class="sidebar-card__grid">
+${relGuides.slice(0, 3).map(g => `
+                  <a href="${g.url}" class="sidebar-card__mini-card">
+                    <div class="sidebar-card__mini-badge">${esc(g.category || 'Guide')}</div>
+                    <div class="sidebar-card__mini-title">${esc(g.title)}</div>
+                    <div class="sidebar-card__mini-meta">
+                      <span class="sidebar-card__readtime">${esc(g.readTime || '')}</span>
+                    </div>
+                  </a>`).join('\n')}
+                </div>
+              </div>` : ''}
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
 ${partialCTABanner('Discover More Offers', 'Browse all offers on TryTreat.', 'Browse All Offers', '/offers/')}
   </main>
+
+  <div class="offer-detail__sticky-cta">
+    <a href="${esc(offer.affiliateUrl)}" class="btn btn--primary btn--lg offer-detail__sticky-btn" rel="nofollow sponsored" target="_blank">${esc(ctaLabel)}</a>
+  </div>
 
 ${partialFooter()}
   <script src="/assets/js/main.js" defer></script>
