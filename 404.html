@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - TryTreat</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Head back to TryTreat to find free samples, coupons and more.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .error-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 70vh;
+      text-align: center;
+      padding: 4rem 1.5rem;
+    }
+    .error-page__code {
+      font-size: clamp(6rem, 15vw, 10rem);
+      font-weight: 800;
+      letter-spacing: -0.05em;
+      line-height: 1;
+      background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+    }
+    .error-page__title {
+      font-size: var(--fs-xl);
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .error-page__desc {
+      color: var(--color-muted);
+      max-width: 400px;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="/" class="header__logo" aria-label="TryTreat - Home">
+        <svg class="header__logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#2563eb"/>
+          <path d="M8 22V10h4v3h4V10h4v12h-4v-5h-4v5H8z" fill="white"/>
+        </svg>
+        <span class="header__logo-text">TryTreat</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="error-page" aria-labelledby="error-title">
+      <div class="error-page__code">404</div>
+      <h1 id="error-title" class="error-page__title">Page Not Found</h1>
+      <p class="error-page__desc">The page you're looking for doesn't exist or has been moved.</p>
+      <a href="/" class="btn btn--primary btn--lg">Back to Home</a>
+    </section>
+  </main>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

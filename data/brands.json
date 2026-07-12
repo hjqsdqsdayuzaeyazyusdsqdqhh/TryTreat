@@ -1,0 +1,26 @@
+[
+  {
+    "id": "brand-1",
+    "slug": "example-brand",
+    "name": "Example Brand",
+    "description": "Example Brand is a leading consumer products company offering a range of beauty and personal care products.",
+    "offerCount": 0,
+    "url": "/brands/example-brand/",
+    "seo": {
+      "title": "Example Brand Free Samples & Offers | TryTreat",
+      "description": "Find free samples, coupons, and deals from Example Brand. Browse current offers and save."
+    }
+  },
+  {
+    "id": "brand-2",
+    "slug": "example-store",
+    "name": "Example Store",
+    "description": "Example Store is a popular online retailer offering a wide range of products at competitive prices.",
+    "offerCount": 0,
+    "url": "/brands/example-store/",
+    "seo": {
+      "title": "Example Store Coupons & Deals | TryTreat",
+      "description": "Get exclusive coupons and deals for Example Store. Save money on your next purchase."
+    }
+  }
+]

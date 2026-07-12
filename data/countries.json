@@ -1,0 +1,74 @@
+[
+  {
+    "id": "de",
+    "slug": "germany",
+    "name": "Germany",
+    "code": "DE",
+    "offerCount": 0,
+    "url": "/countries/germany/",
+    "seo": {
+      "title": "Free Samples & Deals in Germany | TryTreat",
+      "description": "Find free samples, coupons, giveaways and deals available in Germany. Browse offers updated daily."
+    }
+  },
+  {
+    "id": "fr",
+    "slug": "france",
+    "name": "France",
+    "code": "FR",
+    "offerCount": 0,
+    "url": "/countries/france/",
+    "seo": {
+      "title": "Free Samples & Deals in France | TryTreat",
+      "description": "Find free samples, coupons, giveaways and deals available in France. Browse offers updated daily."
+    }
+  },
+  {
+    "id": "nl",
+    "slug": "netherlands",
+    "name": "Netherlands",
+    "code": "NL",
+    "offerCount": 0,
+    "url": "/countries/netherlands/",
+    "seo": {
+      "title": "Free Samples & Deals in Netherlands | TryTreat",
+      "description": "Find free samples, coupons, giveaways and deals available in Netherlands. Browse offers updated daily."
+    }
+  },
+  {
+    "id": "be",
+    "slug": "belgium",
+    "name": "Belgium",
+    "code": "BE",
+    "offerCount": 0,
+    "url": "/countries/belgium/",
+    "seo": {
+      "title": "Free Samples & Deals in Belgium | TryTreat",
+      "description": "Find free samples, coupons, giveaways and deals available in Belgium. Browse offers updated daily."
+    }
+  },
+  {
+    "id": "es",
+    "slug": "spain",
+    "name": "Spain",
+    "code": "ES",
+    "offerCount": 0,
+    "url": "/countries/spain/",
+    "seo": {
+      "title": "Free Samples & Deals in Spain | TryTreat",
+      "description": "Find free samples, coupons, giveaways and deals available in Spain. Browse offers updated daily."
+    }
+  },
+  {
+    "id": "it",
+    "slug": "italy",
+    "name": "Italy",
+    "code": "IT",
+    "offerCount": 0,
+    "url": "/countries/italy/",
+    "seo": {
+      "title": "Free Samples & Deals in Italy | TryTreat",
+      "description": "Find free samples, coupons, giveaways and deals available in Italy. Browse offers updated daily."
+    }
+  }
+]

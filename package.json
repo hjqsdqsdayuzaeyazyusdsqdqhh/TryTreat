@@ -1,0 +1,9 @@
+{
+  "name": "trytreat",
+  "version": "1.0.0",
+  "description": "TryTreat - Europe's premium source for free samples, coupons, giveaways, cashback & rewards",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate.js"
+  }
+}

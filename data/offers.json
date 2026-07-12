@@ -1,0 +1,88 @@
+[
+  {
+    "id": "example-offer-1",
+    "slug": "example-offer",
+    "title": "Free Beauty Sample Box",
+    "brand": "Example Brand",
+    "brandSlug": "example-brand",
+    "category": "free-samples",
+    "categoryName": "Free Samples",
+    "type": "free-sample",
+    "description": "Get a curated box of premium beauty samples delivered to your door. Includes skincare, makeup, and fragrance samples from top brands.",
+    "eligibility": "Open to residents aged 18+. Available in select European countries. One per household.",
+    "howItWorks": [
+      "Click the claim button to visit the brand's page",
+      "Fill out the short registration form",
+      "Confirm your shipping address",
+      "Receive your sample box within 3-4 weeks"
+    ],
+    "value": "€25+",
+    "status": "active",
+    "featured": true,
+    "affiliateUrl": "#",
+    "url": "/offers/example-offer/",
+    "image": null,
+    "tags": ["beauty", "skincare", "makeup", "samples"],
+    "country": ["DE", "FR", "NL", "BE"],
+    "createdAt": "2026-07-01",
+    "expiresAt": "2026-08-31",
+    "seo": {
+      "title": "Free Beauty Sample Box | Premium Samples Delivered | TryTreat",
+      "description": "Get a free beauty sample box worth €25+. Includes skincare, makeup and fragrance samples. No purchase required. Claim yours today.",
+      "keywords": ["free beauty samples", "beauty sample box", "free skincare samples"]
+    },
+    "faq": [
+      {
+        "question": "What's included in the sample box?",
+        "answer": "The box includes 5-7 premium beauty samples including skincare, makeup, and fragrance products from well-known brands."
+      },
+      {
+        "question": "Is there any cost involved?",
+        "answer": "The sample box is completely free. There are no hidden costs or subscription requirements."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "Delivery typically takes 3-4 weeks depending on your location."
+      }
+    ]
+  },
+  {
+    "id": "example-offer-2",
+    "slug": "example-coupon-1",
+    "title": "Exclusive 20% Off First Order",
+    "brand": "Example Store",
+    "brandSlug": "example-store",
+    "category": "coupons",
+    "categoryName": "Coupons",
+    "type": "coupon",
+    "description": "Save 20% on your first order at Example Store. Use this exclusive coupon code at checkout.",
+    "eligibility": "Valid for new customers only. One use per account. Minimum order value may apply.",
+    "howItWorks": [
+      "Copy the coupon code from this page",
+      "Shop at Example Store and add items to your cart",
+      "Paste the code at checkout",
+      "Enjoy 20% off your order"
+    ],
+    "value": "20% Off",
+    "status": "active",
+    "featured": true,
+    "affiliateUrl": "#",
+    "url": "/offers/example-coupon-1/",
+    "image": null,
+    "tags": ["coupon", "discount", "first order"],
+    "country": ["ALL"],
+    "createdAt": "2026-07-01",
+    "expiresAt": "2026-12-31",
+    "seo": {
+      "title": "20% Off First Order | Exclusive Coupon Code | TryTreat",
+      "description": "Get 20% off your first order with this exclusive coupon code. Valid on all products. Limited time offer.",
+      "keywords": ["coupon code", "20% off", "discount code", "first order discount"]
+    },
+    "faq": [
+      {
+        "question": "Does this work on sale items?",
+        "answer": "The coupon code can typically be combined with sale items, but check the store's terms for any exclusions."
+      }
+    ]
+  }
+]

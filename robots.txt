@@ -1,0 +1,12 @@
+# TryTreat - robots.txt
+# https://www.trytreat.com
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/
+Disallow: /scripts/
+
+Sitemap: https://www.trytreat.com/sitemap.xml

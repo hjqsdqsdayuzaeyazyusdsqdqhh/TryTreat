@@ -1,0 +1,1588 @@
+[
+  {
+    "type": "category",
+    "title": "Free Samples",
+    "slug": "free-samples",
+    "category": "Free Samples",
+    "description": "Discover free product samples from top brands. Try before you buy with no commitment.",
+    "keywords": [
+      "free samples",
+      "free stuff",
+      "try products for free",
+      "free product samples"
+    ],
+    "url": "/categories/free-samples/"
+  },
+  {
+    "type": "category",
+    "title": "Product Testing",
+    "slug": "product-testing",
+    "category": "Product Testing",
+    "description": "Become a product tester and try new products before anyone else.",
+    "keywords": [
+      "product testing",
+      "become a product tester",
+      "test products at home",
+      "paid product testing"
+    ],
+    "url": "/categories/product-testing/"
+  },
+  {
+    "type": "category",
+    "title": "Giveaways",
+    "slug": "giveaways",
+    "category": "Giveaways",
+    "description": "Enter exciting giveaways and win amazing prizes from your favorite brands.",
+    "keywords": [
+      "giveaways",
+      "win free stuff",
+      "competitions",
+      "free prize draws"
+    ],
+    "url": "/categories/giveaways/"
+  },
+  {
+    "type": "category",
+    "title": "Coupons",
+    "slug": "coupons",
+    "category": "Coupons",
+    "description": "Save money with exclusive coupon codes and discount deals.",
+    "keywords": [
+      "coupons",
+      "discount codes",
+      "promo codes",
+      "coupon codes"
+    ],
+    "url": "/categories/coupons/"
+  },
+  {
+    "type": "category",
+    "title": "Cashback",
+    "slug": "cashback",
+    "category": "Cashback",
+    "description": "Earn money back on your online purchases with cashback deals.",
+    "keywords": [
+      "cashback",
+      "earn money back",
+      "cashback deals",
+      "online shopping rewards"
+    ],
+    "url": "/categories/cashback/"
+  },
+  {
+    "type": "category",
+    "title": "Rewards",
+    "slug": "rewards",
+    "category": "Rewards",
+    "description": "Earn loyalty points and redeem rewards from your favorite brands.",
+    "keywords": [
+      "rewards",
+      "loyalty programs",
+      "earn points",
+      "redeem rewards"
+    ],
+    "url": "/categories/rewards/"
+  },
+  {
+    "type": "offer",
+    "title": "Free Beauty Sample Box",
+    "slug": "example-offer",
+    "category": "Free Samples",
+    "description": "Get a curated box of premium beauty samples delivered to your door. Includes skincare, makeup, and fragrance samples from top brands.",
+    "keywords": [
+      "free beauty samples",
+      "beauty sample box",
+      "free skincare samples"
+    ],
+    "url": "/offers/example-offer/"
+  },
+  {
+    "type": "offer",
+    "title": "Exclusive 20% Off First Order",
+    "slug": "example-coupon-1",
+    "category": "Coupons",
+    "description": "Save 20% on your first order at Example Store. Use this exclusive coupon code at checkout.",
+    "keywords": [
+      "coupon code",
+      "20% off",
+      "discount code",
+      "first order discount"
+    ],
+    "url": "/offers/example-coupon-1/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Get Free Samples in 2026: The Complete Guide",
+    "slug": "how-to-get-free-samples",
+    "category": "Getting Started",
+    "description": "Learn how to find and claim free samples from top brands. This complete guide covers everything from finding offers to maximizing your haul.",
+    "keywords": [
+      "how to get free samples",
+      "free samples guide",
+      "get free products"
+    ],
+    "url": "/guides/how-to-get-free-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Cashback Apps in Europe for 2026",
+    "slug": "best-cashback-apps-europe",
+    "category": "Savings Tips",
+    "description": "Compare the top cashback platforms available in Europe. Find out which apps offer the best rates and rewards.",
+    "keywords": [
+      "best cashback apps",
+      "cashback europe",
+      "earn money shopping"
+    ],
+    "url": "/guides/best-cashback-apps-europe/"
+  },
+  {
+    "type": "guide",
+    "title": "Become a Product Tester: Step-by-Step Guide",
+    "slug": "become-product-tester",
+    "category": "Product Testing",
+    "description": "Learn how to apply for product testing programs and get paid to try products before they hit the market.",
+    "keywords": [
+      "become a product tester",
+      "product testing programs",
+      "get paid to test"
+    ],
+    "url": "/guides/become-product-tester/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Get Free Samples in Germany",
+    "slug": "how-to-get-free-samples-germany",
+    "category": "Free Samples",
+    "description": "Discover the best ways to get free samples in Germany. Learn where to find Gratisproben from top brands like Kaufland, EDEKA, and more.",
+    "keywords": [
+      "free samples germany",
+      "gratisproben",
+      "free stuff germany",
+      "kaufland samples",
+      "edeka samples"
+    ],
+    "url": "/guides/how-to-get-free-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Product Testing Websites in Germany",
+    "slug": "best-product-testing-websites",
+    "category": "Product Testing",
+    "description": "Find the best product testing websites in Germany. Get paid to test products and keep them for free with these trusted platforms.",
+    "keywords": [
+      "product testing websites",
+      "test products germany",
+      "product tester",
+      "free products testing"
+    ],
+    "url": "/guides/best-product-testing-websites/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Beauty Samples in Germany: Where to Find Them",
+    "slug": "free-beauty-samples-germany",
+    "category": "Free Samples",
+    "description": "Get free beauty samples from top brands in Germany. Discover where to find skincare, makeup, and fragrance samples at no cost.",
+    "keywords": [
+      "free beauty samples",
+      "free skincare germany",
+      "free makeup samples",
+      "beauty gratisproben"
+    ],
+    "url": "/guides/free-beauty-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Baby Samples in Germany: Complete Guide",
+    "slug": "free-baby-samples-germany",
+    "category": "Free Samples",
+    "description": "Get free baby samples in Germany. Discover where to find diapers, formula, baby care products, and more at no cost.",
+    "keywords": [
+      "free baby samples",
+      "baby gratisproben",
+      "free diapers germany",
+      "baby formula samples"
+    ],
+    "url": "/guides/free-baby-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Food Samples in Germany: Supermarkets and Events",
+    "slug": "free-food-samples-germany",
+    "category": "Free Samples",
+    "description": "Find free food samples at German supermarkets like Kaufland and EDEKA. Learn where to taste cheese, snacks, and beverages for free.",
+    "keywords": [
+      "free food samples",
+      "kaufland free samples",
+      "edeka free samples",
+      "supermarket samples germany"
+    ],
+    "url": "/guides/free-food-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Pet Samples in Germany: Dog and Cat Treats",
+    "slug": "free-pet-samples-germany",
+    "category": "Free Samples",
+    "description": "Get free pet samples in Germany. Find free dog food, cat treats, and pet care products from top brands for your furry friends.",
+    "keywords": [
+      "free pet samples",
+      "free dog food",
+      "free cat treats",
+      "pet gratisproben"
+    ],
+    "url": "/guides/free-pet-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "How Cashback Works: Complete Beginner Guide",
+    "slug": "how-cashback-works",
+    "category": "Cashback",
+    "description": "Learn how cashback works and start earning money back on your purchases. Simple explanation of cashback programs, apps, and payment methods.",
+    "keywords": [
+      "how cashback works",
+      "cashback guide",
+      "cashback germany",
+      "earn money back"
+    ],
+    "url": "/guides/how-cashback-works/"
+  },
+  {
+    "type": "guide",
+    "title": "Beginner's Guide to Coupons: Start Saving Today",
+    "slug": "beginners-guide-to-coupons",
+    "category": "Coupons",
+    "description": "Learn how to use coupons effectively. This beginner's guide covers digital coupons, promo codes, and smart shopping strategies in Germany.",
+    "keywords": [
+      "coupon guide",
+      "how to use coupons",
+      "promo codes germany",
+      "coupon beginner"
+    ],
+    "url": "/guides/beginners-guide-to-coupons/"
+  },
+  {
+    "type": "guide",
+    "title": "Product Testing Explained: How It Works and Why Brands Do It",
+    "slug": "product-testing-explained",
+    "category": "Product Testing",
+    "description": "Understand how product testing works from both the brand and tester perspective. Learn why companies pay you to test their products.",
+    "keywords": [
+      "product testing explained",
+      "how product testing works",
+      "product tester",
+      "test products"
+    ],
+    "url": "/guides/product-testing-explained/"
+  },
+  {
+    "type": "guide",
+    "title": "Shopping Rewards in Germany: Loyalty Programs and Points",
+    "slug": "shopping-rewards-germany",
+    "category": "Rewards",
+    "description": "Discover the best shopping rewards and loyalty programs in Germany. Learn how to earn points, redeem rewards, and save money at Kaufland, EDEKA, and more.",
+    "keywords": [
+      "shopping rewards germany",
+      "loyalty programs",
+      "kaufland card",
+      "edeka payback"
+    ],
+    "url": "/guides/shopping-rewards-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Understanding Gratisproben: Germany's Free Sample Culture",
+    "slug": "understanding-gratisproben",
+    "category": "Free Samples",
+    "description": "Discover the German tradition of Gratisproben. Learn how free sample culture works in Germany and how to take full advantage of it.",
+    "keywords": [
+      "gratisproben",
+      "german free samples",
+      "free samples germany",
+      "gratisproben meaning"
+    ],
+    "url": "/guides/understanding-gratisproben/"
+  },
+  {
+    "type": "guide",
+    "title": "Kaufland Free Samples and Promotions Guide",
+    "slug": "kaufland-free-samples-promotions",
+    "category": "Free Samples",
+    "description": "Get free samples and promotions at Kaufland. Learn about Kaufland's sampling events, loyalty card benefits, and weekly deals.",
+    "keywords": [
+      "kaufland free samples",
+      "kaufland promotions",
+      "kaufland card",
+      "kaufland deals"
+    ],
+    "url": "/guides/kaufland-free-samples-promotions/"
+  },
+  {
+    "type": "guide",
+    "title": "EDEKA Free Samples and Offers Guide",
+    "slug": "edeka-free-samples-offers",
+    "category": "Free Samples",
+    "description": "Learn how to get free samples and deals at EDEKA. Discover EDEKA's sampling events, payback points, and promotional strategies.",
+    "keywords": [
+      "edeka free samples",
+      "edeka offers",
+      "edeka payback",
+      "edeka deals"
+    ],
+    "url": "/guides/edeka-free-samples-offers/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples at German Drugstores: dm, Rossmann, Müller",
+    "slug": "free-samples-german-drugstores",
+    "category": "Free Samples",
+    "description": "Find free samples at German drugstores like dm, Rossmann, and Müller. Discover where and how to get beauty and personal care samples.",
+    "keywords": [
+      "dm free samples",
+      "rossmann free samples",
+      "muller samples",
+      "german drugstore samples"
+    ],
+    "url": "/guides/free-samples-german-drugstores/"
+  },
+  {
+    "type": "guide",
+    "title": "Stacking Savings: Combine Coupons, Cashback, and Free Samples",
+    "slug": "stacking-savings-strategies",
+    "category": "Cashback",
+    "description": "Learn how to stack multiple savings methods. Combine coupons, cashback, loyalty points, and free samples to maximize your total savings.",
+    "keywords": [
+      "stacking savings",
+      "combine coupons cashback",
+      "maximize savings",
+      "savings strategy"
+    ],
+    "url": "/guides/stacking-savings-strategies/"
+  },
+  {
+    "type": "guide",
+    "title": "Seasonal Freebies: What to Expect Each Month in Germany",
+    "slug": "seasonal-freebies-guide",
+    "category": "Free Samples",
+    "description": "Plan your free sample hunting by season. Discover which freebies are available each month in Germany and when to look for them.",
+    "keywords": [
+      "seasonal freebies",
+      "monthly free samples",
+      "germany freebies calendar",
+      "free samples schedule"
+    ],
+    "url": "/guides/seasonal-freebies-guide/"
+  },
+  {
+    "type": "guide",
+    "title": "German Consumer Rights for Free Samples and Trials",
+    "slug": "german-consumer-rights-free-samples",
+    "category": "Free Samples",
+    "description": "Know your consumer rights when signing up for free samples in Germany. Understand withdrawal rights, subscription traps, and legal protections.",
+    "keywords": [
+      "consumer rights germany",
+      "free sample legal",
+      "withdrawal right",
+      "subscription trap"
+    ],
+    "url": "/guides/german-consumer-rights-free-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples by Mail in Germany: Complete Guide",
+    "slug": "free-samples-by-mail-germany",
+    "category": "Free Samples",
+    "description": "Get free samples delivered by mail to your home in Germany. Find out which brands send freebies and how to sign up for each.",
+    "keywords": [
+      "free samples by mail",
+      "freebies by post",
+      "germany mail samples",
+      "home delivery free samples"
+    ],
+    "url": "/guides/free-samples-by-mail-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Avoid Free Sample Scams and Stay Safe",
+    "slug": "avoid-free-sample-scams",
+    "category": "Free Samples",
+    "description": "Protect yourself from free sample scams. Learn to identify fake offers, avoid subscription traps, and only use legitimate free sample sources.",
+    "keywords": [
+      "free sample scams",
+      "avoid scams",
+      "free samples safe",
+      "legitimate free samples"
+    ],
+    "url": "/guides/avoid-free-sample-scams/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Build a Weekly Free Sample Routine",
+    "slug": "build-free-sample-routine",
+    "category": "Free Samples",
+    "description": "Create a consistent free sample routine that delivers results. Plan your weekly schedule for maximum freebie collection in Germany.",
+    "keywords": [
+      "free sample routine",
+      "weekly free samples",
+      "freebie schedule",
+      "get more free samples"
+    ],
+    "url": "/guides/build-free-sample-routine/"
+  },
+  {
+    "type": "guide",
+    "title": "Beauty Product Testing Programs in Germany",
+    "slug": "beauty-product-testing-programs",
+    "category": "Product Testing",
+    "description": "Join beauty product testing programs in Germany. Test skincare, makeup, and fragrance products before they launch and keep them for free.",
+    "keywords": [
+      "beauty product testing",
+      "skincare tester germany",
+      "makeup testing programs",
+      "free beauty products"
+    ],
+    "url": "/guides/beauty-product-testing-programs/"
+  },
+  {
+    "type": "guide",
+    "title": "Product Testing for Electronics and Gadgets",
+    "slug": "electronics-product-testing-guide",
+    "category": "Product Testing",
+    "description": "Test electronics and gadgets before they hit the market. Learn how to become a tech product tester in Germany and keep devices for free.",
+    "keywords": [
+      "electronics testing",
+      "gadget tester",
+      "tech product testing",
+      "test electronics free"
+    ],
+    "url": "/guides/electronics-product-testing-guide/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Write Product Reviews That Get You More Testing Gigs",
+    "slug": "writing-good-product-reviews",
+    "category": "Product Testing",
+    "description": "Write better product reviews and get selected for more testing programs. Learn what brands look for in tester feedback.",
+    "keywords": [
+      "product review writing",
+      "good product reviews",
+      "tester feedback",
+      "review tips"
+    ],
+    "url": "/guides/writing-good-product-reviews/"
+  },
+  {
+    "type": "guide",
+    "title": "Top Product Testing Companies in Europe",
+    "slug": "top-product-testing-companies-europe",
+    "category": "Product Testing",
+    "description": "Find the best product testing companies operating in Europe. Compare platforms, eligibility, and the types of products you can test.",
+    "keywords": [
+      "product testing europe",
+      "testing companies",
+      "best testing platforms",
+      "european testers"
+    ],
+    "url": "/guides/top-product-testing-companies-europe/"
+  },
+  {
+    "type": "guide",
+    "title": "Product Testing vs Focus Groups: Which Pays More?",
+    "slug": "product-testing-vs-focus-groups",
+    "category": "Product Testing",
+    "description": "Compare product testing and focus groups to find the best earning opportunity. Understand the differences in compensation, time, and effort.",
+    "keywords": [
+      "product testing vs focus groups",
+      "focus group pay",
+      "product tester income",
+      "market research comparison"
+    ],
+    "url": "/guides/product-testing-vs-focus-groups/"
+  },
+  {
+    "type": "guide",
+    "title": "Cashback vs Coupons: Which Saves More Money?",
+    "slug": "cashback-vs-coupons-savings",
+    "category": "Cashback",
+    "description": "Compare cashback and coupons to find out which saves you more. Understand when to use each method for maximum savings in Germany.",
+    "keywords": [
+      "cashback vs coupons",
+      "which saves more",
+      "savings comparison",
+      "cashback or coupon"
+    ],
+    "url": "/guides/cashback-vs-coupons-savings/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Coupon Apps in Germany for 2026",
+    "slug": "best-coupon-apps-germany",
+    "category": "Coupons",
+    "description": "Discover the best coupon apps in Germany. Save money on groceries, fashion, and online shopping with these top-rated coupon applications.",
+    "keywords": [
+      "best coupon apps germany",
+      "coupon app",
+      "save money app",
+      "grocery coupon app"
+    ],
+    "url": "/guides/best-coupon-apps-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples for Students in Germany",
+    "slug": "free-samples-students-germany",
+    "category": "Free Samples",
+    "description": "Students in Germany can access exclusive free samples and discounts. Find out where to get freebies designed for university students.",
+    "keywords": [
+      "free samples students",
+      "student freebies germany",
+      "university samples",
+      "student deals"
+    ],
+    "url": "/guides/free-samples-students-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Kaufland vs EDEKA: Which Supermarket Has Better Deals?",
+    "slug": "kaufland-vs-edeka-deals",
+    "category": "Coupons",
+    "description": "Compare Kaufland and EDEKA to find out which supermarket offers better deals, free samples, and loyalty rewards in Germany.",
+    "keywords": [
+      "kaufland vs edeka",
+      "supermarket comparison",
+      "better deals",
+      "german supermarket"
+    ],
+    "url": "/guides/kaufland-vs-edeka-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Turn Rewards Points Into Free Products",
+    "slug": "turn-rewards-into-free-products",
+    "category": "Rewards",
+    "description": "Learn how to redeem loyalty points for free products in Germany. Convert your rewards points into tangible items you actually want.",
+    "keywords": [
+      "redeem loyalty points",
+      "turn points into products",
+      "rewards redemption",
+      "free products points"
+    ],
+    "url": "/guides/turn-rewards-into-free-products/"
+  },
+  {
+    "type": "guide",
+    "title": "Printable Coupons vs Digital Coupons: Which Is Better?",
+    "slug": "printable-vs-digital-coupons",
+    "category": "Coupons",
+    "description": "Compare printable and digital coupons to find which saves you more. Understand the pros and cons of each coupon format in Germany.",
+    "keywords": [
+      "printable coupons vs digital",
+      "digital coupons germany",
+      "coupon formats",
+      "printable coupon sites"
+    ],
+    "url": "/guides/printable-vs-digital-coupons/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Beauty Products in Germany",
+    "slug": "best-free-beauty-products-germany",
+    "category": "Free Samples",
+    "description": "Discover the best free beauty products available in Germany. Skincare, makeup, haircare, and fragrance samples from top brands.",
+    "keywords": [
+      "best free beauty products",
+      "free skincare germany",
+      "free makeup samples",
+      "beauty freebies"
+    ],
+    "url": "/guides/best-free-beauty-products-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Food Samples and Tastings in Germany",
+    "slug": "best-free-food-samples-germany",
+    "category": "Free Samples",
+    "description": "Find the best free food samples in Germany. Cheese, bakery items, beverages, and snacks from Kaufland, EDEKA, and local events.",
+    "keywords": [
+      "best free food samples",
+      "free food germany",
+      "cheese samples",
+      "supermarket tastings"
+    ],
+    "url": "/guides/best-free-food-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "German Supermarket Loyalty Programs Compared",
+    "slug": "supermarket-loyalty-programs-compared",
+    "category": "Rewards",
+    "description": "Compare loyalty programs from Kaufland, EDEKA, REWE, Lidl, and Aldi. Find out which supermarket rewards program gives you the most value.",
+    "keywords": [
+      "supermarket loyalty programs",
+      "kaufland card vs edeka",
+      "german loyalty cards",
+      "best supermarket rewards"
+    ],
+    "url": "/guides/supermarket-loyalty-programs-compared/"
+  },
+  {
+    "type": "guide",
+    "title": "The Ultimate Beginner's Guide to Freebies in Germany",
+    "slug": "ultimate-beginner-guide-freebies-germany",
+    "category": "Free Samples",
+    "description": "New to freebies in Germany? This complete beginner guide covers everything from your first free sample to building a full savings strategy.",
+    "keywords": [
+      "beginner guide freebies",
+      "freebies germany",
+      "getting started free samples",
+      "new to freebies"
+    ],
+    "url": "/guides/ultimate-beginner-guide-freebies-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Samples in Spring: Seasonal Guide",
+    "slug": "best-free-samples-spring",
+    "category": "Free Samples",
+    "description": "Discover the best free samples available during spring in Germany. Seasonal beauty, food, garden, and wellness samples to look for.",
+    "keywords": [
+      "spring free samples",
+      "seasonal freebies spring",
+      "march free samples",
+      "spring promotions germany"
+    ],
+    "url": "/guides/best-free-samples-spring/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples for Families in Germany",
+    "slug": "free-samples-families-germany",
+    "category": "Free Samples",
+    "description": "Find free samples designed for families in Germany. Baby products, family-sized food samples, cleaning products, and household essentials.",
+    "keywords": [
+      "free samples families",
+      "family freebies germany",
+      "baby samples",
+      "household samples"
+    ],
+    "url": "/guides/free-samples-families-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "The Complete Guide to Free Stuff in Europe",
+    "slug": "complete-guide-free-stuff-europe",
+    "category": "Free Samples",
+    "description": "Find free stuff across Europe. This guide covers free samples, trials, and giveaways available in Germany, France, Netherlands, and beyond.",
+    "keywords": [
+      "free stuff europe",
+      "free samples europe",
+      "freebies europe",
+      "european free samples"
+    ],
+    "url": "/guides/complete-guide-free-stuff-europe/"
+  },
+  {
+    "type": "guide",
+    "title": "Loyalty Cards vs Cashback Apps: Which Rewards You More?",
+    "slug": "loyalty-cards-vs-cashback-apps",
+    "category": "Rewards",
+    "description": "Compare loyalty cards and cashback apps to find the best rewards strategy. Understand the differences in earning potential and flexibility.",
+    "keywords": [
+      "loyalty cards vs cashback",
+      "which rewards more",
+      "cashback app or loyalty card",
+      "rewards comparison"
+    ],
+    "url": "/guides/loyalty-cards-vs-cashback-apps/"
+  },
+  {
+    "type": "guide",
+    "title": "Advanced Strategies for Free Sample Power Users",
+    "slug": "advanced-strategies-free-samples",
+    "category": "Free Samples",
+    "description": "Take your free sample game to the next level. Advanced strategies, automation tips, and insider techniques for experienced freebie collectors.",
+    "keywords": [
+      "advanced free sample strategies",
+      "freebie power user",
+      "optimize free samples",
+      "free sample automation"
+    ],
+    "url": "/guides/advanced-strategies-free-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Gratisproben vs Coupons: Which Saves You More?",
+    "slug": "gratisproben-vs-coupons-savings",
+    "category": "Free Samples",
+    "description": "Compare Gratisproben and coupons to find out which method saves you more money in Germany. Understand when to use each approach.",
+    "keywords": [
+      "gratisproben vs coupons",
+      "free samples vs coupons",
+      "savings comparison",
+      "which saves more"
+    ],
+    "url": "/guides/gratisproben-vs-coupons-savings/"
+  },
+  {
+    "type": "guide",
+    "title": "Gratisproben.de: How to Use Germany's Top Free Sample Site",
+    "slug": "gratisproben-de-how-to-use",
+    "category": "Free Samples",
+    "description": "Learn how to use Gratisproben.de effectively. Navigate the platform, find the best offers, and maximize your free sample collection.",
+    "keywords": [
+      "gratisproben de",
+      "gratisproben website",
+      "free sample site germany",
+      "how to use gratisproben"
+    ],
+    "url": "/guides/gratisproben-de-how-to-use/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Cashback Apps in Germany: Head-to-Head Comparison",
+    "slug": "cashback-apps-comparison-germany",
+    "category": "Cashback",
+    "description": "Compare the top cashback apps in Germany side by side. Find out which app gives you the highest cashback rates and best user experience.",
+    "keywords": [
+      "best cashback apps germany",
+      "cashback app comparison",
+      "cashback app review",
+      "earn money shopping"
+    ],
+    "url": "/guides/cashback-apps-comparison-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Germany vs Other European Countries: Free Sample Availability",
+    "slug": "germany-vs-europe-free-samples",
+    "category": "Free Samples",
+    "description": "Compare free sample availability across European countries. Find out how Germany stacks up against France, Netherlands, and other markets.",
+    "keywords": [
+      "free samples europe",
+      "germany free samples vs europe",
+      "european freebies",
+      "international free samples"
+    ],
+    "url": "/guides/germany-vs-europe-free-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Cleaning and Household Product Samples",
+    "slug": "free-cleaning-product-samples",
+    "category": "Free Samples",
+    "description": "Get free cleaning and household product samples in Germany. Detergents, surface cleaners, and air fresheners from leading brands.",
+    "keywords": [
+      "free cleaning samples",
+      "free detergent samples",
+      "household samples germany",
+      "cleaning product freebies"
+    ],
+    "url": "/guides/free-cleaning-product-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Weekly Free Samples Routine: How to Get New Ones Every Week",
+    "slug": "weekly-free-samples-routine",
+    "category": "Free Samples",
+    "description": "Set up a weekly routine for finding free samples. Learn which days to check, where to look, and how to stay consistent.",
+    "keywords": [
+      "weekly free samples",
+      "free sample routine",
+      "freebie schedule",
+      "get free samples weekly"
+    ],
+    "url": "/guides/weekly-free-samples-routine/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Earn Cashback at Kaufland and EDEKA",
+    "slug": "cashback-kaufland-edeka",
+    "category": "Cashback",
+    "description": "Earn cashback on your Kaufland and EDEKA shopping. Learn which cashback platforms work with German supermarkets and how to maximize earnings.",
+    "keywords": [
+      "cashback kaufland",
+      "cashback edeka",
+      "supermarket cashback germany",
+      "earn money grocery shopping"
+    ],
+    "url": "/guides/cashback-kaufland-edeka/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples by Mail: How to Sign Up and What to Expect",
+    "slug": "free-samples-by-mail-how-to",
+    "category": "Free Samples",
+    "description": "Step-by-step guide to getting free samples by mail in Germany. What information to provide, how long delivery takes, and what to expect.",
+    "keywords": [
+      "free samples by mail",
+      "mail samples germany",
+      "how to get free samples mail",
+      "sample delivery"
+    ],
+    "url": "/guides/free-samples-by-mail-how-to/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Get More Free Samples: Pro Tips and Secrets",
+    "slug": "get-more-free-samples-pro-tips",
+    "category": "Free Samples",
+    "description": "Unlock pro tips for getting more free samples. Insider secrets, timing strategies, and lesser-known sources for maximum freebies.",
+    "keywords": [
+      "get more free samples",
+      "free sample tips",
+      "freebie secrets",
+      "pro tips freebies"
+    ],
+    "url": "/guides/get-more-free-samples-pro-tips/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Pet Samples: Dog Food, Cat Treats, and More",
+    "slug": "free-pet-samples-dog-cat-treats",
+    "category": "Free Samples",
+    "description": "Get free pet samples in Germany. Dog food, cat treats, and pet care products from leading brands. Treat your furry friend for free.",
+    "keywords": [
+      "free pet samples",
+      "free dog food",
+      "free cat treats",
+      "pet samples germany"
+    ],
+    "url": "/guides/free-pet-samples-dog-cat-treats/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples in Germany: Everything You Need to Know",
+    "slug": "free-samples-germany-faq",
+    "category": "FAQ",
+    "description": "Complete guide to getting free samples in Germany. Learn how to request Gratisproben, find the best offers, and avoid common pitfalls.",
+    "keywords": [
+      "free samples germany",
+      "gratisproben",
+      "freebies deutschland",
+      "kostenlose proben"
+    ],
+    "url": "/guides/free-samples-germany-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Product Testing FAQ: Common Questions Answered",
+    "slug": "product-testing-faq",
+    "category": "FAQ",
+    "description": "Your questions about product testing programs answered. Learn how to join, what to expect, and how to become a trusted product tester in Germany.",
+    "keywords": [
+      "product testing germany",
+      "produkttester",
+      "product tester",
+      "test panels"
+    ],
+    "url": "/guides/product-testing-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Giveaways and Competitions FAQ",
+    "slug": "giveaways-competitions-faq",
+    "category": "FAQ",
+    "description": "All your questions about giveaways and competitions in Germany. Find out how to enter, increase your odds, and avoid scams.",
+    "keywords": [
+      "giveaways germany",
+      "competitions",
+      "gewinnspiele",
+      "prize draws"
+    ],
+    "url": "/guides/giveaways-competitions-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Coupon Codes: Frequently Asked Questions",
+    "slug": "coupon-codes-faq",
+    "category": "FAQ",
+    "description": "Everything you need to know about using coupon codes in Germany. Find, apply, and maximize savings with this comprehensive FAQ.",
+    "keywords": [
+      "coupon codes germany",
+      "gutscheincodes",
+      "discount codes",
+      "promo codes"
+    ],
+    "url": "/guides/coupon-codes-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Cashback Programs FAQ: How They Work",
+    "slug": "cashback-programs-faq",
+    "category": "FAQ",
+    "description": "Complete guide to cashback programs in Germany. Understand how cashback works, maximize your earnings, and choose the best platforms.",
+    "keywords": [
+      "cashback germany",
+      "cashback program",
+      "geld zurück",
+      "cashback apps"
+    ],
+    "url": "/guides/cashback-programs-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Loyalty Rewards Programs FAQ",
+    "slug": "loyalty-rewards-programs-faq",
+    "category": "FAQ",
+    "description": "Your questions about loyalty and rewards programs in Germany answered. Learn how to earn points, redeem rewards, and get the most value.",
+    "keywords": [
+      "loyalty program",
+      "rewards program",
+      "treuepunkte",
+      "loyalty card germany"
+    ],
+    "url": "/guides/loyalty-rewards-programs-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Gratisproben FAQ: Germany's Free Sample Portal",
+    "slug": "gratisproben-faq",
+    "category": "FAQ",
+    "description": "Your complete guide to Gratisproben in Germany. Find out how to request free samples, what is available, and tips for success.",
+    "keywords": [
+      "gratisproben",
+      "free samples germany",
+      "kostenlose probe",
+      "proben anfordern"
+    ],
+    "url": "/guides/gratisproben-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Kaufland Deals and Promotions FAQ",
+    "slug": "kaufland-deals-faq",
+    "category": "FAQ",
+    "description": "Your questions about Kaufland deals, coupons, and promotions answered. Learn how to save more at one of Germany's largest supermarket chains.",
+    "keywords": [
+      "kaufland deals",
+      "kaufland card",
+      "kaufland gutschein",
+      "kaufland angebote"
+    ],
+    "url": "/guides/kaufland-deals-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "EDEKA Offers and Savings FAQ",
+    "slug": "edeka-offers-faq",
+    "category": "FAQ",
+    "description": "Frequently asked questions about EDEKA offers, savings programs, and promotions. Maximize your grocery budget with this complete guide.",
+    "keywords": [
+      "edeka offers",
+      "edeka bonus",
+      "edeka angebote",
+      "edeka gutschein"
+    ],
+    "url": "/guides/edeka-offers-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Is It Really Free? Avoiding Hidden Costs FAQ",
+    "slug": "avoid-hidden-costs-faq",
+    "category": "FAQ",
+    "description": "Learn how to identify and avoid hidden costs associated with free samples and promotions. Protect yourself from common traps and scams.",
+    "keywords": [
+      "hidden costs free samples",
+      "subscription trap",
+      "free offer scams",
+      "consumer protection"
+    ],
+    "url": "/guides/avoid-hidden-costs-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Shipping and Delivery for Free Samples FAQ",
+    "slug": "shipping-delivery-free-samples-faq",
+    "category": "FAQ",
+    "description": "Everything about shipping and delivery for free samples in Germany. Find out delivery times, costs, and how to track your samples.",
+    "keywords": [
+      "free sample shipping",
+      "delivery times",
+      "gratisproben versand",
+      "sample delivery"
+    ],
+    "url": "/guides/shipping-delivery-free-samples-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Privacy and Data When Signing Up for Freebies FAQ",
+    "slug": "privacy-data-freebies-faq",
+    "category": "FAQ",
+    "description": "Understand your privacy rights and data protection when signing up for free samples and deals in Germany. Stay safe and informed.",
+    "keywords": [
+      "privacy free samples",
+      "data protection",
+      "DSGVO",
+      "gdpr freebies"
+    ],
+    "url": "/guides/privacy-data-freebies-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Cancel Free Trial Subscriptions FAQ",
+    "slug": "cancel-free-trials-faq",
+    "category": "FAQ",
+    "description": "Step-by-step guide to canceling free trial subscriptions in Germany. Know your rights, avoid unwanted charges, and cancel hassle-free.",
+    "keywords": [
+      "cancel free trial",
+      "kündigung",
+      "widerrufsrecht",
+      "free trial cancellation"
+    ],
+    "url": "/guides/cancel-free-trials-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Apps for Free Samples and Deals FAQ",
+    "slug": "best-apps-free-samples-deals-faq",
+    "category": "FAQ",
+    "description": "Discover the best apps for finding free samples, deals, and discounts in Germany. Reviews, features, and tips for each recommended app.",
+    "keywords": [
+      "free sample apps",
+      "deal apps",
+      "coupon app germany",
+      "cashback app"
+    ],
+    "url": "/guides/best-apps-free-samples-deals-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Getting Started with TryTreat: Complete FAQ",
+    "slug": "getting-started-trytreat-faq",
+    "category": "FAQ",
+    "description": "Everything you need to know about using TryTreat. Learn how to find deals, request free samples, and maximize your savings on the platform.",
+    "keywords": [
+      "trytreat",
+      "trytreat faq",
+      "getting started",
+      "how to use trytreat"
+    ],
+    "url": "/guides/getting-started-trytreat-faq/"
+  },
+  {
+    "type": "guide",
+    "title": "Kaufland vs EDEKA: Which Supermarket Saves You More",
+    "slug": "kaufland-vs-edeka",
+    "category": "Comparisons",
+    "description": "Kaufland vs EDEKA comparison: discover which German supermarket offers better prices, free samples, coupons and deals for budget-conscious shoppers.",
+    "keywords": [
+      "Kaufland vs EDEKA",
+      "German supermarket comparison",
+      "grocery savings Germany",
+      "Kaufland deals",
+      "EDEKA coupons",
+      "supermarket free samples"
+    ],
+    "url": "/guides/kaufland-vs-edeka/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Samples vs Product Testing: Which Is Better",
+    "slug": "free-samples-vs-product-testing-comparison",
+    "category": "Comparisons",
+    "description": "Free samples vs product testing: learn the key differences, benefits, and which method gets you more free products and rewards in Germany.",
+    "keywords": [
+      "free samples vs product testing",
+      "Gratisproben Germany",
+      "product testing programs",
+      "get free products",
+      "free sample comparison"
+    ],
+    "url": "/guides/free-samples-vs-product-testing-comparison/"
+  },
+  {
+    "type": "guide",
+    "title": "Coupons vs Cashback: Which Saves More Money",
+    "slug": "coupons-vs-cashback-comparison",
+    "category": "Comparisons",
+    "description": "Coupons vs cashback comparison: discover which money-saving method delivers bigger savings and how to combine both for maximum impact.",
+    "keywords": [
+      "coupons vs cashback",
+      "save money Germany",
+      "coupon comparison",
+      "cashback comparison",
+      "best savings methods"
+    ],
+    "url": "/guides/coupons-vs-cashback-comparison/"
+  },
+  {
+    "type": "guide",
+    "title": "Digital Coupons vs Paper Coupons: The Complete Comparison",
+    "slug": "digital-vs-paper-coupons",
+    "category": "Comparisons",
+    "description": "Digital coupons vs paper coupons: discover which format saves more money, offers better convenience, and fits your shopping style in Germany.",
+    "keywords": [
+      "digital coupons vs paper coupons",
+      "coupon comparison",
+      "online coupons Germany",
+      "paper coupon savings",
+      "best coupon format"
+    ],
+    "url": "/guides/digital-vs-paper-coupons/"
+  },
+  {
+    "type": "guide",
+    "title": "Gratisproben vs Coupon Sites: Which Gets You More Free Stuff",
+    "slug": "gratisproben-vs-coupon-sites",
+    "category": "Comparisons",
+    "description": "Gratisproben vs coupon sites comparison: find out which method gets you more free products and deals in Germany with less effort.",
+    "keywords": [
+      "Gratisproben vs coupons",
+      "free samples Germany",
+      "coupon sites comparison",
+      "free stuff Germany",
+      "savings comparison"
+    ],
+    "url": "/guides/gratisproben-vs-coupon-sites/"
+  },
+  {
+    "type": "guide",
+    "title": "Germany vs Other European Countries: Free Sample Availability",
+    "slug": "germany-vs-europe-free-samples",
+    "category": "Comparisons",
+    "description": "Compare free sample availability across Germany, France, Netherlands and other European countries to find where Gratisproben are most abundant.",
+    "keywords": [
+      "free samples Europe",
+      "Gratisproben Germany",
+      "European free samples",
+      "free samples by country",
+      "Germany free samples"
+    ],
+    "url": "/guides/germany-vs-europe-free-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Loyalty Cards vs Cashback Apps: Which Rewards You More",
+    "slug": "loyalty-cards-vs-cashback-apps",
+    "category": "Comparisons",
+    "description": "Loyalty cards vs cashback apps comparison: discover which rewards program saves you more money on groceries and everyday shopping in Germany.",
+    "keywords": [
+      "loyalty cards vs cashback",
+      "loyalty programs Germany",
+      "cashback apps comparison",
+      "grocery rewards Germany",
+      "best loyalty card"
+    ],
+    "url": "/guides/loyalty-cards-vs-cashback-apps/"
+  },
+  {
+    "type": "guide",
+    "title": "Kaufland vs ALDI: Deals and Freebies Compared",
+    "slug": "kaufland-vs-aldi-deals",
+    "category": "Comparisons",
+    "description": "Kaufland vs ALDI comparison: find out which German supermarket offers better deals, freebies, and overall value for budget-conscious shoppers.",
+    "keywords": [
+      "Kaufland vs ALDI",
+      "supermarket comparison Germany",
+      "ALDI deals",
+      "Kaufland freebies",
+      "grocery savings Germany"
+    ],
+    "url": "/guides/kaufland-vs-aldi-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "Free Beauty Samples vs Free Food Samples",
+    "slug": "free-beauty-vs-free-food-samples",
+    "category": "Comparisons",
+    "description": "Free beauty samples vs free food samples: compare availability, value, and variety to find out which category offers the best Gratisproben in Germany.",
+    "keywords": [
+      "free beauty samples",
+      "free food samples",
+      "Gratisproben beauty",
+      "free samples Germany",
+      "beauty vs food samples"
+    ],
+    "url": "/guides/free-beauty-vs-free-food-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "One-Time Deals vs Recurring Rewards: Building a Savings Strategy",
+    "slug": "one-time-deals-vs-recurring-rewards",
+    "category": "Comparisons",
+    "description": "One-time deals vs recurring rewards: learn which approach builds better long-term savings and how to combine both for maximum financial benefit.",
+    "keywords": [
+      "one-time deals vs recurring rewards",
+      "savings strategy",
+      "deal hunting tips",
+      "cashback strategy",
+      "loyalty rewards Germany"
+    ],
+    "url": "/guides/one-time-deals-vs-recurring-rewards/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Samples in Germany: The Ultimate Collection",
+    "slug": "best-free-samples-germany",
+    "category": "Evergreen",
+    "description": "Discover the best free samples in Germany. Our ultimate collection covers beauty, food, household products and more from top brands.",
+    "keywords": [
+      "free samples germany",
+      "gratisproben",
+      "freebies germany",
+      "best free samples",
+      "product samples DE"
+    ],
+    "url": "/guides/best-free-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Monthly Free Samples Guide: What to Expect",
+    "slug": "monthly-free-samples-guide",
+    "category": "Evergreen",
+    "description": "Plan your free sample collection month by month. Learn what samples are available each month and how to stay ahead.",
+    "keywords": [
+      "monthly free samples",
+      "free samples calendar",
+      "germany freebies monthly",
+      "sample planning guide"
+    ],
+    "url": "/guides/monthly-free-samples-guide/"
+  },
+  {
+    "type": "guide",
+    "title": "Weekly Deals Roundup: Best Offers This Week",
+    "slug": "weekly-deals-roundup",
+    "category": "Evergreen",
+    "description": "Stay updated with the best weekly deals and offers across Germany. Our roundup covers discounts, coupons, free samples and promotions.",
+    "keywords": [
+      "weekly deals germany",
+      "best offers this week",
+      "german supermarket deals",
+      "weekly coupons DE"
+    ],
+    "url": "/guides/weekly-deals-roundup/"
+  },
+  {
+    "type": "guide",
+    "title": "The Ultimate Beginner's Guide to Freebies in Germany",
+    "slug": "ultimate-beginner-guide-freebies-germany",
+    "category": "Evergreen",
+    "description": "New to freebies in Germany? This beginner's guide covers everything about finding, requesting, and receiving free products.",
+    "keywords": [
+      "beginner freebies germany",
+      "free samples beginner guide",
+      "gratisproben anfänger",
+      "getting started freebies DE"
+    ],
+    "url": "/guides/ultimate-beginner-guide-freebies-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Advanced Strategies for Free Sample Power Users",
+    "slug": "advanced-strategies-free-samples",
+    "category": "Evergreen",
+    "description": "Take your free sample game to the next level with advanced strategies used by experienced collectors across Germany.",
+    "keywords": [
+      "advanced free samples",
+      "power user freebies",
+      "sample collecting strategy",
+      "expert gratisproben tips"
+    ],
+    "url": "/guides/advanced-strategies-free-samples/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Samples by Season: Spring Edition",
+    "slug": "best-free-samples-spring",
+    "category": "Evergreen",
+    "description": "Discover the best free samples during spring in Germany. From cleaning products to Easter treats, find top seasonal offers.",
+    "keywords": [
+      "spring free samples germany",
+      "easter samples",
+      "spring cleaning freebies",
+      "seasonal samples DE"
+    ],
+    "url": "/guides/best-free-samples-spring/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Samples by Season: Summer Edition",
+    "slug": "best-free-samples-summer",
+    "category": "Evergreen",
+    "description": "Explore the best free samples during summer in Germany. From BBQ tastings to sunscreen trials, find top warm-weather offers.",
+    "keywords": [
+      "summer free samples germany",
+      "BBQ samples",
+      "sunscreen samples DE",
+      "summer freebies"
+    ],
+    "url": "/guides/best-free-samples-summer/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Samples by Season: Autumn Edition",
+    "slug": "best-free-samples-autumn",
+    "category": "Evergreen",
+    "description": "Find the best free samples during autumn in Germany. From Oktoberfest treats to warming beverages, discover fall's top offers.",
+    "keywords": [
+      "autumn free samples germany",
+      "Oktoberfest samples",
+      "fall freebies DE",
+      "harvest season samples"
+    ],
+    "url": "/guides/best-free-samples-autumn/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Samples by Season: Winter Edition",
+    "slug": "best-free-samples-winter",
+    "category": "Evergreen",
+    "description": "Uncover the best free samples during winter in Germany. From Christmas advent calendars to cozy skincare, find cold-weather offers.",
+    "keywords": [
+      "winter free samples germany",
+      "christmas samples DE",
+      "new year freebies",
+      "cold weather product samples"
+    ],
+    "url": "/guides/best-free-samples-winter/"
+  },
+  {
+    "type": "guide",
+    "title": "Berlin Free Samples and Deals Guide",
+    "slug": "berlin-free-samples-deals",
+    "category": "Evergreen",
+    "description": "Your complete guide to free samples and deals in Berlin. Discover the best sampling events, stores, and hidden gems.",
+    "keywords": [
+      "berlin free samples",
+      "berlin gratisproben",
+      "berlin deals",
+      "freebies berlin germany"
+    ],
+    "url": "/guides/berlin-free-samples-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "Munich Free Samples and Deals Guide",
+    "slug": "munich-free-samples-deals",
+    "category": "Evergreen",
+    "description": "Explore free samples and deals in Munich. From Viktualienmarkt tastings to Oktoberfest sampling, find Bavaria's best opportunities.",
+    "keywords": [
+      "munich free samples",
+      "munich gratisproben",
+      "oktoberfest samples",
+      "munich deals"
+    ],
+    "url": "/guides/munich-free-samples-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "Hamburg Free Samples and Deals Guide",
+    "slug": "hamburg-free-samples-deals",
+    "category": "Evergreen",
+    "description": "Find the best free samples and deals in Hamburg. From harbor market tastings to premium store sampling, explore Hanseatic city offers.",
+    "keywords": [
+      "hamburg free samples",
+      "hamburg gratisproben",
+      "hamburg deals",
+      "hamburg fish market samples"
+    ],
+    "url": "/guides/hamburg-free-samples-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "Cologne Free Samples and Deals Guide",
+    "slug": "cologne-free-samples-deals",
+    "category": "Evergreen",
+    "description": "Discover free samples and deals in Cologne. From Karneval treats to Rhineland specialties, explore Köln's best sampling opportunities.",
+    "keywords": [
+      "cologne free samples",
+      "köln gratisproben",
+      "cologne deals",
+      "karneval samples"
+    ],
+    "url": "/guides/cologne-free-samples-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "Frankfurt Free Samples and Deals Guide",
+    "slug": "frankfurt-free-samples-deals",
+    "category": "Evergreen",
+    "description": "Explore free samples and deals in Frankfurt. From Kleinmarkthalle tastings to banking district promotions, find the Main metropolis offers.",
+    "keywords": [
+      "frankfurt free samples",
+      "frankfurt gratisproben",
+      "frankfurt deals",
+      "frankfurt am main freebies"
+    ],
+    "url": "/guides/frankfurt-free-samples-deals/"
+  },
+  {
+    "type": "guide",
+    "title": "Kaufland Complete Deals and Freebies Guide",
+    "slug": "kaufland-complete-deals-guide",
+    "category": "Evergreen",
+    "description": "Your complete guide to Kaufland deals, free samples, and promotions. Learn how to maximize savings and freebies at Germany's largest hypermarket.",
+    "keywords": [
+      "kaufland deals",
+      "kaufland free samples",
+      "kaufland gratisproben",
+      "kaufland karte",
+      "kaufland angebote"
+    ],
+    "url": "/guides/kaufland-complete-deals-guide/"
+  },
+  {
+    "type": "guide",
+    "title": "EDEKA Complete Offers and Savings Guide",
+    "slug": "edeka-complete-offers-guide",
+    "category": "Evergreen",
+    "description": "Master EDEKA's deals, sampling programs, and loyalty rewards. Your complete guide to saving money and getting freebies at Germany's top supermarket.",
+    "keywords": [
+      "edeka deals",
+      "edeka free samples",
+      "edeka gratisproben",
+      "mein edeka app",
+      "edeka angebote"
+    ],
+    "url": "/guides/edeka-complete-offers-guide/"
+  },
+  {
+    "type": "guide",
+    "title": "Gratisproben Complete Guide to Free Samples in Germany",
+    "slug": "gratisproben-complete-guide",
+    "category": "Evergreen",
+    "description": "Everything you need to know about Gratisproben in Germany. From finding and requesting to receiving free samples, this comprehensive guide covers it all.",
+    "keywords": [
+      "gratisproben",
+      "gratisproben deutschland",
+      "free samples germany",
+      "kostenlose probe",
+      "product samples DE"
+    ],
+    "url": "/guides/gratisproben-complete-guide/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Beauty Products in Germany",
+    "slug": "best-free-beauty-products-germany",
+    "category": "Evergreen",
+    "description": "Discover the best free beauty product samples in Germany. From luxury skincare to drugstore cosmetics, find the top brands offering freebies.",
+    "keywords": [
+      "free beauty samples germany",
+      "gratis kosmetik probes",
+      "beauty freebies DE",
+      "skincare samples"
+    ],
+    "url": "/guides/best-free-beauty-products-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "Best Free Food Samples and Tastings in Germany",
+    "slug": "best-free-food-samples-germany",
+    "category": "Evergreen",
+    "description": "Find the best free food samples and tastings in Germany. From supermarket sampling stations to gourmet events, discover delicious freebies.",
+    "keywords": [
+      "free food samples germany",
+      "kostenlose proben essen",
+      "food tastings DE",
+      "supermarket food samples"
+    ],
+    "url": "/guides/best-free-food-samples-germany/"
+  },
+  {
+    "type": "guide",
+    "title": "How to Build a Complete Free Sample Routine",
+    "slug": "build-complete-free-sample-routine",
+    "category": "Evergreen",
+    "description": "Create a sustainable free sample routine that works year-round. Step-by-step strategies for building habits that maximize your free product collection.",
+    "keywords": [
+      "free sample routine",
+      "sample collecting strategy",
+      "gratisproben routine",
+      "systematic freebies"
+    ],
+    "url": "/guides/build-complete-free-sample-routine/"
+  },
+  {
+    "type": "brand",
+    "title": "Example Brand",
+    "slug": "example-brand",
+    "category": "Brand",
+    "description": "Example Brand is a leading consumer products company offering a range of beauty and personal care products.",
+    "keywords": [],
+    "url": "/brands/example-brand/"
+  },
+  {
+    "type": "brand",
+    "title": "Example Store",
+    "slug": "example-store",
+    "category": "Brand",
+    "description": "Example Store is a popular online retailer offering a wide range of products at competitive prices.",
+    "keywords": [],
+    "url": "/brands/example-store/"
+  },
+  {
+    "type": "country",
+    "title": "Germany",
+    "slug": "germany",
+    "category": "Country",
+    "description": "Find free samples, coupons, giveaways and deals available in Germany. Browse offers updated daily.",
+    "keywords": [
+      "germany",
+      "de"
+    ],
+    "url": "/countries/germany/"
+  },
+  {
+    "type": "country",
+    "title": "France",
+    "slug": "france",
+    "category": "Country",
+    "description": "Find free samples, coupons, giveaways and deals available in France. Browse offers updated daily.",
+    "keywords": [
+      "france",
+      "fr"
+    ],
+    "url": "/countries/france/"
+  },
+  {
+    "type": "country",
+    "title": "Netherlands",
+    "slug": "netherlands",
+    "category": "Country",
+    "description": "Find free samples, coupons, giveaways and deals available in Netherlands. Browse offers updated daily.",
+    "keywords": [
+      "netherlands",
+      "nl"
+    ],
+    "url": "/countries/netherlands/"
+  },
+  {
+    "type": "country",
+    "title": "Belgium",
+    "slug": "belgium",
+    "category": "Country",
+    "description": "Find free samples, coupons, giveaways and deals available in Belgium. Browse offers updated daily.",
+    "keywords": [
+      "belgium",
+      "be"
+    ],
+    "url": "/countries/belgium/"
+  },
+  {
+    "type": "country",
+    "title": "Spain",
+    "slug": "spain",
+    "category": "Country",
+    "description": "Find free samples, coupons, giveaways and deals available in Spain. Browse offers updated daily.",
+    "keywords": [
+      "spain",
+      "es"
+    ],
+    "url": "/countries/spain/"
+  },
+  {
+    "type": "country",
+    "title": "Italy",
+    "slug": "italy",
+    "category": "Country",
+    "description": "Find free samples, coupons, giveaways and deals available in Italy. Browse offers updated daily.",
+    "keywords": [
+      "italy",
+      "it"
+    ],
+    "url": "/countries/italy/"
+  }
+]

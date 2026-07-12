@@ -1,0 +1,111 @@
+[
+  {
+    "id": "guide-1",
+    "slug": "how-to-get-free-samples",
+    "title": "How to Get Free Samples in 2026: The Complete Guide",
+    "category": "Getting Started",
+    "categorySlug": "getting-started",
+    "description": "Learn how to find and claim free samples from top brands. This complete guide covers everything from finding offers to maximizing your haul.",
+    "readTime": "8 min read",
+    "publishedAt": "2026-07-01",
+    "updatedAt": "2026-07-12",
+    "author": "TryTreat Team",
+    "tags": ["free samples", "beginner guide", "how to"],
+    "url": "/guides/how-to-get-free-samples/",
+    "tableOfContents": [
+      { "id": "what-are-free-samples", "title": "What Are Free Samples?" },
+      { "id": "where-to-find", "title": "Where to Find Free Samples" },
+      { "id": "tips-for-success", "title": "Tips for Success" },
+      { "id": "common-mistakes", "title": "Common Mistakes to Avoid" },
+      { "id": "maximize-haul", "title": "Maximizing Your Free Sample Haul" }
+    ],
+    "seo": {
+      "title": "How to Get Free Samples in 2026 | Complete Guide | TryTreat",
+      "description": "Learn how to find and claim free samples from top brands. Step-by-step guide to getting free products delivered to your door.",
+      "keywords": ["how to get free samples", "free samples guide", "get free products"]
+    },
+    "faq": [
+      {
+        "question": "Is it really possible to get free samples?",
+        "answer": "Yes! Many brands offer free samples to promote their products. The key is knowing where to look and being consistent."
+      },
+      {
+        "question": "How many free samples can I get?",
+        "answer": "There's no limit. Some people receive dozens of free samples every month by signing up for multiple offers."
+      },
+      {
+        "question": "Do I need to pay for shipping?",
+        "answer": "Most free samples include free shipping. Some may require a small shipping fee, but we clearly mark those offers."
+      }
+    ],
+    "relatedOffers": ["example-offer-1"],
+    "relatedGuides": [],
+    "relatedCategories": ["free-samples"]
+  },
+  {
+    "id": "guide-2",
+    "slug": "best-cashback-apps-europe",
+    "title": "Best Cashback Apps in Europe for 2026",
+    "category": "Savings Tips",
+    "categorySlug": "savings-tips",
+    "description": "Compare the top cashback platforms available in Europe. Find out which apps offer the best rates and rewards.",
+    "readTime": "6 min read",
+    "publishedAt": "2026-07-05",
+    "updatedAt": "2026-07-12",
+    "author": "TryTreat Team",
+    "tags": ["cashback", "apps", "europe", "savings"],
+    "url": "/guides/best-cashback-apps-europe/",
+    "tableOfContents": [
+      { "id": "what-is-cashback", "title": "What Is Cashback?" },
+      { "id": "best-apps", "title": "Best Cashback Apps" },
+      { "id": "how-to-maximize", "title": "How to Maximize Earnings" }
+    ],
+    "seo": {
+      "title": "Best Cashback Apps in Europe 2026 | Save Money | TryTreat",
+      "description": "Compare the best cashback apps in Europe. Find platforms offering the highest cashback rates for your online shopping.",
+      "keywords": ["best cashback apps", "cashback europe", "earn money shopping"]
+    },
+    "faq": [
+      {
+        "question": "Are cashback apps free to use?",
+        "answer": "Yes, most cashback apps are completely free. They earn a commission from retailers and share it with you."
+      }
+    ],
+    "relatedOffers": [],
+    "relatedGuides": [],
+    "relatedCategories": ["cashback"]
+  },
+  {
+    "id": "guide-3",
+    "slug": "become-product-tester",
+    "title": "Become a Product Tester: Step-by-Step Guide",
+    "category": "Product Testing",
+    "categorySlug": "product-testing",
+    "description": "Learn how to apply for product testing programs and get paid to try products before they hit the market.",
+    "readTime": "7 min read",
+    "publishedAt": "2026-07-08",
+    "updatedAt": "2026-07-12",
+    "author": "TryTreat Team",
+    "tags": ["product testing", "tester", "get paid"],
+    "url": "/guides/become-product-tester/",
+    "tableOfContents": [
+      { "id": "what-is-product-testing", "title": "What Is Product Testing?" },
+      { "id": "how-to-apply", "title": "How to Apply" },
+      { "id": "what-to-expect", "title": "What to Expect" }
+    ],
+    "seo": {
+      "title": "Become a Product Tester | Get Paid to Test Products | TryTreat",
+      "description": "Learn how to become a product tester. Apply for testing programs, try products at home, and earn rewards.",
+      "keywords": ["become a product tester", "product testing programs", "get paid to test"]
+    },
+    "faq": [
+      {
+        "question": "Do I need experience to be a product tester?",
+        "answer": "No prior experience is needed. Brands want real consumer feedback, so being a regular user is often preferred."
+      }
+    ],
+    "relatedOffers": [],
+    "relatedGuides": ["guide-1"],
+    "relatedCategories": ["product-testing"]
+  }
+]

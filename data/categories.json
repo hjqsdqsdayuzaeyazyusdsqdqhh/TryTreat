@@ -1,0 +1,162 @@
+[
+  {
+    "id": "free-samples",
+    "slug": "free-samples",
+    "name": "Free Samples",
+    "shortName": "Free Samples",
+    "description": "Discover free product samples from top brands. Try before you buy with no commitment.",
+    "longDescription": "Browse thousands of free samples available right now. From beauty and skincare to food and baby products, find free samples delivered straight to your door. Our curated collection helps you discover new products without spending a cent.",
+    "icon": "heart",
+    "offerCount": 0,
+    "url": "/categories/free-samples/",
+    "seo": {
+      "title": "Free Samples | Try New Products for Free | TryTreat",
+      "description": "Find free samples from top brands. Browse beauty, food, baby, and pet free samples delivered to your door. Updated daily.",
+      "keywords": ["free samples", "free stuff", "try products for free", "free product samples"]
+    },
+    "faq": [
+      {
+        "question": "Are these free samples really free?",
+        "answer": "Yes, all free samples listed on TryTreat are completely free. Some may require you to fill out a short form or create an account."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "Delivery times vary by brand. Most free samples arrive within 2-6 weeks."
+      },
+      {
+        "question": "Can I request multiple samples?",
+        "answer": "Absolutely! There's no limit to how many different samples you can request."
+      }
+    ]
+  },
+  {
+    "id": "product-testing",
+    "slug": "product-testing",
+    "name": "Product Testing",
+    "shortName": "Product Testing",
+    "description": "Become a product tester and try new products before anyone else.",
+    "longDescription": "Join product testing programs from leading brands and get paid to test products. Share your honest feedback and help shape the products of tomorrow. Product testing is a great way to try new items and earn rewards.",
+    "icon": "wrench",
+    "offerCount": 0,
+    "url": "/categories/product-testing/",
+    "seo": {
+      "title": "Product Testing | Get Paid to Try Products | TryTreat",
+      "description": "Apply for product testing programs. Test new products at home, share feedback, and earn rewards. Find open testing opportunities.",
+      "keywords": ["product testing", "become a product tester", "test products at home", "paid product testing"]
+    },
+    "faq": [
+      {
+        "question": "Do I get paid for product testing?",
+        "answer": "Some programs offer payment, while others provide free products. Each program has different rewards."
+      },
+      {
+        "question": "What qualifications do I need?",
+        "answer": "Requirements vary by program. Most require you to be a real user who will provide honest feedback."
+      }
+    ]
+  },
+  {
+    "id": "giveaways",
+    "slug": "giveaways",
+    "name": "Giveaways",
+    "shortName": "Giveaways",
+    "description": "Enter exciting giveaways and win amazing prizes from your favorite brands.",
+    "longDescription": "Discover active giveaways and competitions from top brands. Enter for a chance to win products, gift cards, and exclusive prizes. New giveaways added daily.",
+    "icon": "gift",
+    "offerCount": 0,
+    "url": "/categories/giveaways/",
+    "seo": {
+      "title": "Giveaways | Win Free Products & Prizes | TryTreat",
+      "description": "Enter active giveaways and win free products, gift cards, and prizes. Browse current competitions from top brands.",
+      "keywords": ["giveaways", "win free stuff", "competitions", "free prize draws"]
+    },
+    "faq": [
+      {
+        "question": "Are giveaways legitimate?",
+        "answer": "All giveaways on TryTreat are from verified brands and are completely legitimate."
+      },
+      {
+        "question": "Is there a limit to entries?",
+        "answer": "Some giveaways allow multiple entries while others are one-time. Check each giveaway for details."
+      }
+    ]
+  },
+  {
+    "id": "coupons",
+    "slug": "coupons",
+    "name": "Coupons",
+    "shortName": "Coupons",
+    "description": "Save money with exclusive coupon codes and discount deals.",
+    "longDescription": "Find working coupon codes and exclusive discounts for hundreds of stores. Save on everything from fashion and electronics to groceries and travel. Verified and updated daily.",
+    "icon": "scissors",
+    "offerCount": 0,
+    "url": "/categories/coupons/",
+    "seo": {
+      "title": "Coupons & Discount Codes | Save Money Today | TryTreat",
+      "description": "Find working coupon codes and exclusive discounts. Save on fashion, electronics, food and more. Verified daily.",
+      "keywords": ["coupons", "discount codes", "promo codes", "coupon codes"]
+    },
+    "faq": [
+      {
+        "question": "Are these coupon codes tested?",
+        "answer": "We verify and test coupon codes regularly to ensure they work."
+      },
+      {
+        "question": "How often are new coupons added?",
+        "answer": "New coupons are added and updated daily to ensure you always have access to the best deals."
+      }
+    ]
+  },
+  {
+    "id": "cashback",
+    "slug": "cashback",
+    "name": "Cashback",
+    "shortName": "Cashback",
+    "description": "Earn money back on your online purchases with cashback deals.",
+    "longDescription": "Get cash back when you shop online. Compare cashback rates from different platforms and maximize your savings on every purchase.",
+    "icon": "dollar",
+    "offerCount": 0,
+    "url": "/categories/cashback/",
+    "seo": {
+      "title": "Cashback Deals | Earn Money Back on Purchases | TryTreat",
+      "description": "Compare cashback deals and earn money back on online purchases. Find the best cashback rates for your favorite stores.",
+      "keywords": ["cashback", "earn money back", "cashback deals", "online shopping rewards"]
+    },
+    "faq": [
+      {
+        "question": "How does cashback work?",
+        "answer": "When you shop through a cashback platform, you earn a percentage of your purchase back as cash."
+      },
+      {
+        "question": "When do I receive my cashback?",
+        "answer": "Cashback is typically credited within a few days to a few weeks, depending on the retailer's return policy."
+      }
+    ]
+  },
+  {
+    "id": "rewards",
+    "slug": "rewards",
+    "name": "Rewards",
+    "shortName": "Rewards",
+    "description": "Earn loyalty points and redeem rewards from your favorite brands.",
+    "longDescription": "Discover loyalty programs and reward opportunities. Earn points for shopping, completing tasks, or providing feedback and redeem them for amazing perks.",
+    "icon": "star",
+    "offerCount": 0,
+    "url": "/categories/rewards/",
+    "seo": {
+      "title": "Rewards & Loyalty Programs | Earn Perks | TryTreat",
+      "description": "Find the best rewards and loyalty programs. Earn points and redeem for discounts, free products, and exclusive perks.",
+      "keywords": ["rewards", "loyalty programs", "earn points", "redeem rewards"]
+    },
+    "faq": [
+      {
+        "question": "How do I earn rewards?",
+        "answer": "You can earn rewards through loyalty programs, completing surveys, referring friends, and more."
+      },
+      {
+        "question": "What can I redeem rewards for?",
+        "answer": "Rewards can typically be redeemed for discounts, free products, gift cards, or exclusive experiences."
+      }
+    ]
+  }
+]
