@@ -651,7 +651,7 @@ function generateOfferPages() {
 
     const ctaLabel = offer.type === 'free-sample' ? 'Claim Free Samples' :
                      offer.id === 'edeka' ? 'View Current Offer' :
-                     offer.id === 'kaufand' ? 'Explore Rewards' :
+                      offer.id === 'kaufland' ? 'Explore Rewards' :
                      'View Offer';
 
     const categoryText = offer.type === 'free-sample' ? 'Free Sample' :
@@ -765,10 +765,41 @@ ${breadcrumb}
             <div class="offer-detail__main">
 
               <!-- Offer Preview -->
-              ${offer.id === 'edeka' ? `
+              ${(function() {
+                const previewData = {
+                  gratisproben: {
+                    headTitle: 'Free Samples Opportunity',
+                    headSub: 'Browse verified free sample offers from leading brands in Germany delivered to your door.',
+                    benefits: ['&#10003; Free Participation', '&#10003; Product Samples', '&#10003; Beauty & Household', '&#10003; Germany'],
+                    rewardLabel: 'Offer Value',
+                    rewardValue: 'Free Product Samples',
+                    rewardSub: 'No purchase required',
+                    ctaText: 'Claim Free Samples'
+                  },
+                  edeka: {
+                    headTitle: 'Shopping Rewards Opportunity',
+                    headSub: 'Explore the latest promotional shopping reward opportunity available in Germany.',
+                    benefits: ['&#10003; Free Participation', '&#10003; Fast Registration', '&#10003; Available Online', '&#10003; Updated Regularly'],
+                    rewardLabel: 'Potential Reward',
+                    rewardValue: 'Up to &euro;500',
+                    rewardSub: 'Shopping Rewards',
+                    ctaText: 'View Current Offer'
+                  },
+                  kaufland: {
+                    headTitle: 'Rewards Program Preview',
+                    headSub: 'Discover Kaufland promotional rewards and shopping opportunities available in Germany.',
+                    benefits: ['&#10003; Free Participation', '&#10003; Shopping Rewards', '&#10003; Germany', '&#10003; Updated Regularly'],
+                    rewardLabel: 'Reward Type',
+                    rewardValue: 'Shopping Rewards',
+                    rewardSub: 'Weekly opportunities',
+                    ctaText: 'Explore Rewards'
+                  }
+                };
+                const pd = previewData[offer.id] || previewData.edeka;
+                return `
               <div class="offer-detail__preview">
                 <div class="offer-detail__preview-label">Offer Preview</div>
-                <a class="offer-preview-link" href="${esc(offer.affiliateUrl)}" target="_blank" rel="nofollow sponsored noopener" aria-label="View Current Offer - ${esc(offer.title)}">
+                <a class="offer-preview-link" href="${esc(offer.affiliateUrl)}" target="_blank" rel="nofollow sponsored noopener" aria-label="${esc(pd.ctaText)} - ${esc(offer.title)}">
                 <div class="offer-preview-card">
                   <div class="offer-preview-top">
                     <div class="offer-preview-top-badges">
@@ -795,19 +826,16 @@ ${breadcrumb}
                         <path d="M18 10L20 14L24.5 14.5L21 17.5L22 22L18 19.5L14 22L15 17.5L11.5 14.5L16 14Z" fill="white" fill-opacity="0.3"/>
                       </svg>
                     </div>
-                    <h2 class="offer-preview-title">Shopping Rewards Opportunity</h2>
-                    <p class="offer-preview-subtitle">Explore the latest promotional shopping reward opportunity available in Germany.</p>
+                    <h2 class="offer-preview-title">${pd.headTitle}</h2>
+                    <p class="offer-preview-subtitle">${pd.headSub}</p>
                   </div>
                   <div class="offer-preview-benefits">
-                    <div class="offer-preview-benefit">&#10003; Free Participation</div>
-                    <div class="offer-preview-benefit">&#10003; Fast Registration</div>
-                    <div class="offer-preview-benefit">&#10003; Available Online</div>
-                    <div class="offer-preview-benefit">&#10003; Updated Regularly</div>
+                    ${pd.benefits.map(b => `<div class="offer-preview-benefit">${b}</div>`).join('\n                    ')}
                   </div>
                   <div class="offer-preview-highlight">
-                    <div class="offer-preview-highlight-label">Potential Reward</div>
-                    <div class="offer-preview-highlight-value">Up to &euro;500</div>
-                    <div class="offer-preview-highlight-sub">Shopping Rewards</div>
+                    <div class="offer-preview-highlight-label">${pd.rewardLabel}</div>
+                    <div class="offer-preview-highlight-value">${pd.rewardValue}</div>
+                    <div class="offer-preview-highlight-sub">${pd.rewardSub}</div>
                   </div>
                   <section class="how-it-works">
                     <h2 class="how-it-works__title">How It Works</h2>
@@ -826,23 +854,13 @@ ${breadcrumb}
                     </div>
                   </div>
                   <div class="offer-preview-cta">
-                    <span class="btn btn--primary btn--lg offer-preview-cta-btn" role="button" aria-disabled="true" tabindex="-1">View Current Offer</span>
+                    <span class="btn btn--primary btn--lg offer-preview-cta-btn" role="button" aria-disabled="true" tabindex="-1">${pd.ctaText}</span>
                   </div>
                 </div>
                 </a>
                 <p class="offer-detail__preview-caption">Preview provided through our affiliate partner.</p>
-              </div>
-              ` : `
-              <div class="offer-detail__preview">
-                <div class="offer-detail__preview-label">Offer Preview</div>
-                <a class="offer-preview-link" href="${esc(offer.affiliateUrl)}" target="_blank" rel="nofollow sponsored noopener" aria-label="View offer - ${esc(offer.title)}">
-                <div class="offer-detail__preview-frame">
-                  <img src="/assets/creatives/${offer.slug}.svg" alt="${esc(offer.title)} — premium illustration" class="offer-detail__preview-img" loading="lazy" width="900" height="500">
-                </div>
-                </a>
-                <p class="offer-detail__preview-caption">Preview provided through our affiliate partner.</p>
-              </div>
-              `}
+              </div>`;
+              })()}
 
               <!-- Details Card -->
               <div class="offer-detail__section">
