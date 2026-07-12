@@ -768,6 +768,7 @@ ${breadcrumb}
               ${offer.id === 'edeka' ? `
               <div class="offer-detail__preview">
                 <div class="offer-detail__preview-label">Offer Preview</div>
+                <a class="offer-preview-link" href="${esc(offer.affiliateUrl)}" target="_blank" rel="nofollow sponsored noopener" aria-label="View Current Offer - ${esc(offer.title)}">
                 <div class="offer-preview-card">
                   <div class="offer-preview-top">
                     <div class="offer-preview-top-badges">
@@ -828,14 +829,17 @@ ${breadcrumb}
                     <span class="btn btn--primary btn--lg offer-preview-cta-btn" role="button" aria-disabled="true" tabindex="-1">View Current Offer</span>
                   </div>
                 </div>
+                </a>
                 <p class="offer-detail__preview-caption">Preview provided through our affiliate partner.</p>
               </div>
               ` : `
               <div class="offer-detail__preview">
                 <div class="offer-detail__preview-label">Offer Preview</div>
+                <a class="offer-preview-link" href="${esc(offer.affiliateUrl)}" target="_blank" rel="nofollow sponsored noopener" aria-label="View offer - ${esc(offer.title)}">
                 <div class="offer-detail__preview-frame">
                   <img src="/assets/creatives/${offer.slug}.svg" alt="${esc(offer.title)} — premium illustration" class="offer-detail__preview-img" loading="lazy" width="900" height="500">
                 </div>
+                </a>
                 <p class="offer-detail__preview-caption">Preview provided through our affiliate partner.</p>
               </div>
               `}

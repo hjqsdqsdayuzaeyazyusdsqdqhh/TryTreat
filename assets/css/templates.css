@@ -345,6 +345,25 @@
 }
 
 /* ---------- Offer Preview Card (Edeka) ---------- */
+/* Offer preview link wrapper */
+.offer-preview-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border-radius: var(--radius-2xl);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  outline: none;
+}
+.offer-preview-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+.offer-preview-link:focus-visible {
+  box-shadow: 0 0 0 3px var(--color-primary);
+  border-color: var(--color-primary);
+}
+
 .offer-preview-card {
   background: var(--color-bg);
   border: 1px solid var(--color-border);
