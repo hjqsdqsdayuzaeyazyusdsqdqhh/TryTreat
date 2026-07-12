@@ -85,30 +85,45 @@
   },
   {
     "type": "offer",
-    "title": "Free Beauty Sample Box",
-    "slug": "example-offer",
+    "title": "Get Free Samples in Germany",
+    "slug": "gratisproben",
     "category": "Free Samples",
-    "description": "Get a curated box of premium beauty samples delivered to your door. Includes skincare, makeup, and fragrance samples from top brands.",
+    "description": "Discover verified free sample offers from leading brands. Browse the latest opportunities and claim available samples while supplies last.",
     "keywords": [
-      "free beauty samples",
-      "beauty sample box",
-      "free skincare samples"
+      "free samples germany",
+      "gratisproben",
+      "free stuff germany",
+      "product samples"
     ],
-    "url": "/offers/example-offer/"
+    "url": "/offers/gratisproben/"
   },
   {
     "type": "offer",
-    "title": "Exclusive 20% Off First Order",
-    "slug": "example-coupon-1",
-    "category": "Coupons",
-    "description": "Save 20% on your first order at Example Store. Use this exclusive coupon code at checkout.",
+    "title": "EDEKA Rewards & Exclusive Offers",
+    "slug": "edeka",
+    "category": "Rewards",
+    "description": "Explore current EDEKA rewards and promotional opportunities. Check eligibility and access the latest available offer.",
     "keywords": [
-      "coupon code",
-      "20% off",
-      "discount code",
-      "first order discount"
+      "edeka rewards",
+      "edeka offers",
+      "edeka promotions",
+      "supermarket deals germany"
     ],
-    "url": "/offers/example-coupon-1/"
+    "url": "/offers/edeka/"
+  },
+  {
+    "type": "offer",
+    "title": "Kaufland Rewards Program",
+    "slug": "kaufland",
+    "category": "Rewards",
+    "description": "Browse the latest Kaufland promotional rewards and discover available shopping opportunities in Germany.",
+    "keywords": [
+      "kaufland rewards",
+      "kaufland deals",
+      "kaufland promotions",
+      "germany shopping"
+    ],
+    "url": "/offers/kaufland/"
   },
   {
     "type": "guide",
@@ -1512,6 +1527,33 @@
     "description": "Example Store is a popular online retailer offering a wide range of products at competitive prices.",
     "keywords": [],
     "url": "/brands/example-store/"
+  },
+  {
+    "type": "brand",
+    "title": "Gratisproben",
+    "slug": "gratisproben",
+    "category": "Brand",
+    "description": "Gratisproben connects consumers with free product samples from leading brands across Germany.",
+    "keywords": [],
+    "url": "/brands/gratisproben/"
+  },
+  {
+    "type": "brand",
+    "title": "EDEKA",
+    "slug": "edeka",
+    "category": "Brand",
+    "description": "EDEKA is Germany's largest supermarket chain, offering quality groceries and exclusive customer rewards.",
+    "keywords": [],
+    "url": "/brands/edeka/"
+  },
+  {
+    "type": "brand",
+    "title": "Kaufland",
+    "slug": "kaufland",
+    "category": "Brand",
+    "description": "Kaufland is a leading German hypermarket chain offering a wide range of products and customer rewards.",
+    "keywords": [],
+    "url": "/brands/kaufland/"
   },
   {
     "type": "country",

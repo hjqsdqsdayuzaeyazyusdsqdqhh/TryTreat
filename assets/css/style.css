@@ -729,6 +729,30 @@ body {
   overflow: hidden;
 }
 
+.offer-card__country-badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border-radius: var(--radius-full);
+  z-index: 1;
+  line-height: 1.4;
+}
+
+.offer-card__cta {
+  margin-top: 0.75rem;
+  width: 100%;
+}
+
+.offer-card:hover .offer-card__cta {
+  box-shadow: 0 4px 12px rgb(37 99 235 / 0.35);
+  transform: translateY(-1px);
+}
+
 .offer-card__image-placeholder {
   display: flex;
   align-items: center;

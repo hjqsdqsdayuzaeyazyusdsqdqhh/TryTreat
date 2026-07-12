@@ -22,5 +22,41 @@
       "title": "Example Store Coupons & Deals | TryTreat",
       "description": "Get exclusive coupons and deals for Example Store. Save money on your next purchase."
     }
+  },
+  {
+    "id": "gratisproben",
+    "slug": "gratisproben",
+    "name": "Gratisproben",
+    "description": "Gratisproben connects consumers with free product samples from leading brands across Germany.",
+    "offerCount": 1,
+    "url": "/brands/gratisproben/",
+    "seo": {
+      "title": "Gratisproben Free Samples & Offers | TryTreat",
+      "description": "Find free samples and offers from Gratisproben. Browse current free sample opportunities in Germany."
+    }
+  },
+  {
+    "id": "edeka",
+    "slug": "edeka",
+    "name": "EDEKA",
+    "description": "EDEKA is Germany's largest supermarket chain, offering quality groceries and exclusive customer rewards.",
+    "offerCount": 1,
+    "url": "/brands/edeka/",
+    "seo": {
+      "title": "EDEKA Rewards & Offers | TryTreat",
+      "description": "Explore EDEKA rewards and promotional opportunities. Check eligibility and access the latest offers."
+    }
+  },
+  {
+    "id": "kaufland",
+    "slug": "kaufland",
+    "name": "Kaufland",
+    "description": "Kaufland is a leading German hypermarket chain offering a wide range of products and customer rewards.",
+    "offerCount": 1,
+    "url": "/brands/kaufland/",
+    "seo": {
+      "title": "Kaufland Rewards & Deals | TryTreat",
+      "description": "Browse the latest Kaufland promotional rewards and discover available shopping opportunities in Germany."
+    }
   }
 ]

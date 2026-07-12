@@ -1,87 +1,134 @@
 [
   {
-    "id": "example-offer-1",
-    "slug": "example-offer",
-    "title": "Free Beauty Sample Box",
-    "brand": "Example Brand",
-    "brandSlug": "example-brand",
+    "id": "gratisproben",
+    "slug": "gratisproben",
+    "title": "Get Free Samples in Germany",
+    "brand": "Gratisproben",
+    "brandSlug": "gratisproben",
     "category": "free-samples",
     "categoryName": "Free Samples",
     "type": "free-sample",
-    "description": "Get a curated box of premium beauty samples delivered to your door. Includes skincare, makeup, and fragrance samples from top brands.",
-    "eligibility": "Open to residents aged 18+. Available in select European countries. One per household.",
+    "description": "Discover verified free sample offers from leading brands. Browse the latest opportunities and claim available samples while supplies last.",
+    "eligibility": "Open to residents of Germany aged 18+. Availability may vary by region. One per household unless otherwise specified.",
     "howItWorks": [
-      "Click the claim button to visit the brand's page",
-      "Fill out the short registration form",
-      "Confirm your shipping address",
-      "Receive your sample box within 3-4 weeks"
+      "Click the button below to visit the offer partner's page",
+      "Complete the short registration or request form",
+      "Confirm your shipping details",
+      "Receive your free samples within 2-6 weeks"
     ],
-    "value": "€25+",
+    "value": "Free",
     "status": "active",
     "featured": true,
-    "affiliateUrl": "#",
-    "url": "/offers/example-offer/",
+    "affiliateUrl": "https://opensifies.com/?a=4321&oc=27458&c=71151&m=5&s1=&s4=kh1&s5=s",
+    "url": "/offers/gratisproben/",
     "image": null,
-    "tags": ["beauty", "skincare", "makeup", "samples"],
-    "country": ["DE", "FR", "NL", "BE"],
+    "tags": ["free samples", "germany", "gratisproben", "product samples"],
+    "country": ["DE"],
     "createdAt": "2026-07-01",
-    "expiresAt": "2026-08-31",
+    "expiresAt": "2026-12-31",
     "seo": {
-      "title": "Free Beauty Sample Box | Premium Samples Delivered | TryTreat",
-      "description": "Get a free beauty sample box worth €25+. Includes skincare, makeup and fragrance samples. No purchase required. Claim yours today.",
-      "keywords": ["free beauty samples", "beauty sample box", "free skincare samples"]
+      "title": "Get Free Samples in Germany | Verified Offers | TryTreat",
+      "description": "Discover verified free sample offers from leading brands in Germany. Browse the latest opportunities and claim available samples while supplies last.",
+      "keywords": ["free samples germany", "gratisproben", "free stuff germany", "product samples"]
     },
     "faq": [
       {
-        "question": "What's included in the sample box?",
-        "answer": "The box includes 5-7 premium beauty samples including skincare, makeup, and fragrance products from well-known brands."
-      },
-      {
-        "question": "Is there any cost involved?",
-        "answer": "The sample box is completely free. There are no hidden costs or subscription requirements."
+        "question": "Are these free samples really free?",
+        "answer": "Yes, all free samples listed are completely free. You may need to fill out a short form or register on the partner site."
       },
       {
         "question": "How long does delivery take?",
-        "answer": "Delivery typically takes 3-4 weeks depending on your location."
+        "answer": "Delivery typically takes 2-6 weeks depending on the offer and your location within Germany."
+      },
+      {
+        "question": "Can I request multiple samples?",
+        "answer": "You can browse and claim different offers. Some may be limited to one per household."
       }
     ]
   },
   {
-    "id": "example-offer-2",
-    "slug": "example-coupon-1",
-    "title": "Exclusive 20% Off First Order",
-    "brand": "Example Store",
-    "brandSlug": "example-store",
-    "category": "coupons",
-    "categoryName": "Coupons",
+    "id": "edeka",
+    "slug": "edeka",
+    "title": "EDEKA Rewards & Exclusive Offers",
+    "brand": "EDEKA",
+    "brandSlug": "edeka",
+    "category": "rewards",
+    "categoryName": "Rewards",
     "type": "coupon",
-    "description": "Save 20% on your first order at Example Store. Use this exclusive coupon code at checkout.",
-    "eligibility": "Valid for new customers only. One use per account. Minimum order value may apply.",
+    "description": "Explore current EDEKA rewards and promotional opportunities. Check eligibility and access the latest available offer.",
+    "eligibility": "Available to EDEKA customers in Germany. Terms and conditions apply per promotion.",
     "howItWorks": [
-      "Copy the coupon code from this page",
-      "Shop at Example Store and add items to your cart",
-      "Paste the code at checkout",
-      "Enjoy 20% off your order"
+      "Click the button below to visit the EDEKA offers page",
+      "Browse current promotions and rewards",
+      "Select the offers that interest you",
+      "Redeem at your local EDEKA store or online as directed"
     ],
-    "value": "20% Off",
+    "value": "Various",
     "status": "active",
     "featured": true,
-    "affiliateUrl": "#",
-    "url": "/offers/example-coupon-1/",
+    "affiliateUrl": "https://opensifies.com/?a=4321&oc=18379&c=49902&m=3&s1=&s4=khz",
+    "url": "/offers/edeka/",
     "image": null,
-    "tags": ["coupon", "discount", "first order"],
-    "country": ["ALL"],
+    "tags": ["edeka", "rewards", "germany", "supermarket deals"],
+    "country": ["DE"],
     "createdAt": "2026-07-01",
     "expiresAt": "2026-12-31",
     "seo": {
-      "title": "20% Off First Order | Exclusive Coupon Code | TryTreat",
-      "description": "Get 20% off your first order with this exclusive coupon code. Valid on all products. Limited time offer.",
-      "keywords": ["coupon code", "20% off", "discount code", "first order discount"]
+      "title": "EDEKA Rewards & Exclusive Offers | TryTreat",
+      "description": "Explore current EDEKA rewards and promotional opportunities. Check eligibility and access the latest available offers from Germany's leading supermarket.",
+      "keywords": ["edeka rewards", "edeka offers", "edeka promotions", "supermarket deals germany"]
     },
     "faq": [
       {
-        "question": "Does this work on sale items?",
-        "answer": "The coupon code can typically be combined with sale items, but check the store's terms for any exclusions."
+        "question": "What kind of rewards does EDEKA offer?",
+        "answer": "EDEKA offers various promotions including multi-buy discounts, loyalty points, and seasonal offers."
+      },
+      {
+        "question": "Do I need a loyalty card?",
+        "answer": "Some promotions may require an EDEKA loyalty card or app. Check each offer for specific requirements."
+      }
+    ]
+  },
+  {
+    "id": "kaufland",
+    "slug": "kaufland",
+    "title": "Kaufland Rewards Program",
+    "brand": "Kaufland",
+    "brandSlug": "kaufland",
+    "category": "rewards",
+    "categoryName": "Rewards",
+    "type": "coupon",
+    "description": "Browse the latest Kaufland promotional rewards and discover available shopping opportunities in Germany.",
+    "eligibility": "Available to Kaufland customers in Germany. Terms and conditions apply per promotion.",
+    "howItWorks": [
+      "Click the button below to visit the Kaufland offers page",
+      "Browse current deals and reward opportunities",
+      "Choose the promotions you'd like to use",
+      "Redeem at your local Kaufland or online as per instructions"
+    ],
+    "value": "Various",
+    "status": "active",
+    "featured": true,
+    "affiliateUrl": "https://opensifies.com/?a=4321&oc=16704&c=48333&m=3&s1=&s3=dd",
+    "url": "/offers/kaufland/",
+    "image": null,
+    "tags": ["kaufland", "rewards", "germany", "shopping deals"],
+    "country": ["DE"],
+    "createdAt": "2026-07-01",
+    "expiresAt": "2026-12-31",
+    "seo": {
+      "title": "Kaufland Rewards Program | Shopping Offers | TryTreat",
+      "description": "Browse the latest Kaufland promotional rewards and discover available shopping opportunities in Germany. Check eligibility and claim your rewards.",
+      "keywords": ["kaufland rewards", "kaufland deals", "kaufland promotions", "germany shopping"]
+    },
+    "faq": [
+      {
+        "question": "What promotions does Kaufland offer?",
+        "answer": "Kaufland offers weekly deals, multi-buy discounts, and special promotional rewards that change regularly."
+      },
+      {
+        "question": "How often are new offers added?",
+        "answer": "New offers are typically added weekly. Check the Kaufland website or app for the latest promotions."
       }
     ]
   }

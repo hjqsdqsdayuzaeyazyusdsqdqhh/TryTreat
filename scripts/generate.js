@@ -727,6 +727,12 @@ ${breadcrumb}
             <h1 class="offer-detail__title">${esc(offer.title)}</h1>
             <p class="offer-detail__desc">${esc(offer.description)}</p>
 
+            ${offer.affiliateUrl && offer.affiliateUrl !== '#' ? `
+            <div class="offer-detail__affirm">
+              <a href="${esc(offer.affiliateUrl)}" class="btn btn--primary btn--lg offer-detail__affirm-btn" rel="nofollow sponsored" target="_blank">${esc(offer.type === 'free-sample' ? 'Claim Free Samples' : offer.type === 'coupon' ? 'View Offer' : 'Get This Offer')}</a>
+              <p class="offer-detail__affirm-disclosure">This page may contain affiliate links. We may earn a commission if you complete a qualifying action, at no additional cost to you.</p>
+            </div>` : ''}
+
             ${stepsHtml ? `
             <div class="offer-detail__section">
               <h2 class="offer-detail__section-title">How It Works</h2>

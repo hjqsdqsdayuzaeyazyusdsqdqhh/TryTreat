@@ -55,13 +55,19 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.trytreat.com/offers/example-offer/</loc>
+    <loc>https://www.trytreat.com/offers/gratisproben/</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.trytreat.com/offers/example-coupon-1/</loc>
+    <loc>https://www.trytreat.com/offers/edeka/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.trytreat.com/offers/kaufland/</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -674,6 +680,24 @@
   </url>
   <url>
     <loc>https://www.trytreat.com/brands/example-store/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.trytreat.com/brands/gratisproben/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.trytreat.com/brands/edeka/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.trytreat.com/brands/kaufland/</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

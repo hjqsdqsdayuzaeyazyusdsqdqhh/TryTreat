@@ -293,6 +293,28 @@
   line-height: var(--lh-relaxed);
 }
 
+/* ---------- Affiliate CTA ---------- */
+.offer-detail__affirm {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-bg) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  text-align: center;
+}
+
+.offer-detail__affirm-btn {
+  width: 100%;
+  max-width: 320px;
+}
+
+.offer-detail__affirm-disclosure {
+  margin-top: 0.75rem;
+  font-size: var(--fs-xs);
+  color: var(--color-muted);
+  line-height: var(--lh-relaxed);
+}
+
 /* ---------- Trust Notice ---------- */
 .offer-detail__trust {
   display: flex;
