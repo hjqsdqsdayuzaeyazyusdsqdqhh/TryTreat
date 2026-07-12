@@ -308,6 +308,42 @@
   letter-spacing: -0.01em;
 }
 
+/* ---------- Offer Preview ---------- */
+.offer-detail__preview {
+  margin-bottom: 2rem;
+}
+
+.offer-detail__preview-label {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.offer-detail__preview-frame {
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  max-width: 900px;
+}
+
+.offer-detail__preview-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.offer-detail__preview-caption {
+  margin-top: 0.625rem;
+  font-size: var(--fs-xs);
+  color: var(--color-muted);
+  text-align: center;
+}
+
 /* ---------- Details Card ---------- */
 .offer-detail__details-card {
   background: var(--color-bg);

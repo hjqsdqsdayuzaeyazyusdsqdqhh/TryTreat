@@ -662,9 +662,10 @@ function generateOfferPages() {
       year: 'numeric', month: 'short', day: 'numeric'
     });
 
-    const overviewLines = (offer.overview || offer.description).split('\n');
-    const benefitsLines = (offer.benefits || '').split('\n');
-    const notesLines = (offer.importantNotes || '').split('\n');
+    const benefitLines = (offer.benefits || '').split('\n');
+    const noteLines = (offer.importantNotes || '').split('\n');
+
+    const creativeFile = `assets/creatives/${offer.slug}.svg`;
 
     const jsonLdBreadcrumb = {
       '@context': 'https://schema.org',
@@ -763,6 +764,15 @@ ${breadcrumb}
           <div class="offer-detail__content">
             <div class="offer-detail__main">
 
+              <!-- Offer Preview -->
+              <div class="offer-detail__preview">
+                <div class="offer-detail__preview-label">Offer Preview</div>
+                <div class="offer-detail__preview-frame">
+                  <img src="/assets/creatives/${offer.slug}.svg" alt="${esc(offer.title)} — premium illustration" class="offer-detail__preview-img" loading="lazy" width="900" height="500">
+                </div>
+                <p class="offer-detail__preview-caption">Preview provided through our affiliate partner.</p>
+              </div>
+
               <!-- Details Card -->
               <div class="offer-detail__section">
                 <div class="offer-detail__details-card">
@@ -793,14 +803,14 @@ ${breadcrumb}
                     <div class="offer-detail__summary-col">
                       <h3 class="offer-detail__summary-label">Benefits</h3>
                       <ul class="offer-detail__summary-list">
-${benefitsLines.map(b => b.trim()).filter(b => b).map(b => `<li class="o-d-check">${esc(b)}</li>`).join('\n')}
+${benefitLines.map(b => b.trim()).filter(b => b).map(b => `<li class="o-d-check">${esc(b)}</li>`).join('\n')}
                       </ul>
                     </div>
                   </div>
                   <div class="offer-detail__summary-block">
                     <h3 class="offer-detail__summary-label">Important Notes</h3>
                     <ul class="offer-detail__summary-list">
-${notesLines.map(n => n.trim()).filter(n => n).map(n => `<li class="o-d-bullet">${esc(n)}</li>`).join('\n')}
+${noteLines.map(n => n.trim()).filter(n => n).map(n => `<li class="o-d-bullet">${esc(n)}</li>`).join('\n')}
                     </ul>
                   </div>
                 </div>
